@@ -77,6 +77,19 @@ public abstract class HibernateSession {
         return generic;
     }
     
+    protected <T> T getById(Class<T> clazz,String id) {
+        Session session = sessionFactory.openSession();
+        T generic;
+        try {
+            session.beginTransaction();
+            generic = session.get(clazz, id);
+            session.getTransaction().commit();
+        } finally {
+            session.close();
+        }
+        return generic;
+    }
+    
     //TODO: Analizar que excepcion da cuando se desconecta la maquina
     protected <T> List<T> getAll(Class<T> clazz) {
         Session session = sessionFactory.openSession();

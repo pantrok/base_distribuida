@@ -27,6 +27,8 @@ public class Municipio implements Serializable{
     private Integer idEstado;
     @Column
     private String nombre;
+    @Column
+    private Integer checksum;
 
     public Municipio() {
     }
@@ -53,6 +55,14 @@ public class Municipio implements Serializable{
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public Integer getChecksum() {
+        return checksum;
+    }
+
+    public void setChecksum(Integer checksum) {
+        this.checksum = checksum;
     }
 
     @Override

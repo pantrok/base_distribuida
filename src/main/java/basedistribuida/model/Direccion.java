@@ -33,6 +33,8 @@ public class Direccion implements Serializable {
     private Integer idColonia;
     @Column
     private Integer cp;
+    @Column
+    private Integer checksum;
 
     public Direccion() {
     }
@@ -92,6 +94,16 @@ public class Direccion implements Serializable {
     public void setCp(Integer cp) {
         this.cp = cp;
     }
+
+    public Integer getChecksum() {
+        return checksum;
+    }
+
+    public void setChecksum(Integer checksum) {
+        this.checksum = checksum;
+    }
+    
+    
 
     @Override
     public String toString() {

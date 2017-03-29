@@ -27,6 +27,8 @@ public class Colonia implements Serializable {
     private Integer idMunicipio;
     @Column
     private String nombre;
+    @Column
+    private Integer checksum;
 
     public Colonia() {
     }
@@ -54,6 +56,15 @@ public class Colonia implements Serializable {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    public Integer getChecksum() {
+        return checksum;
+    }
+
+    public void setChecksum(Integer checksum) {
+        this.checksum = checksum;
+    }
+    
 
     @Override
     public String toString() {

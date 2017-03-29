@@ -33,6 +33,8 @@ public class Estado implements Serializable{
     @Column
     @Enumerated(EnumType.STRING)
     private Zona zona;
+    @Column
+    private Integer checksum;
 
     public Estado() {
     }
@@ -59,6 +61,14 @@ public class Estado implements Serializable{
 
     public void setZona(Zona zona) {
         this.zona = zona;
+    }
+
+    public Integer getChecksum() {
+        return checksum;
+    }
+
+    public void setChecksum(Integer checksum) {
+        this.checksum = checksum;
     }
 
     @Override

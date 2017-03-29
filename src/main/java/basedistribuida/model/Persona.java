@@ -42,6 +42,8 @@ public class Persona implements Serializable{
     @Column
     @Enumerated(EnumType.STRING)
     private Genero genero;
+    @Column
+    private Integer checksum;
     
     public Persona(){}
 
@@ -93,7 +95,13 @@ public class Persona implements Serializable{
         this.genero = genero;
     }
 
-    
+    public Integer getChecksum() {
+        return checksum;
+    }
+
+    public void setChecksum(Integer checksum) {
+        this.checksum = checksum;
+    }
     
     @Override
     public String toString() {

@@ -17,7 +17,7 @@ import org.hibernate.SessionFactory;
 public class Nodo {
 
     public enum Maquina {
-        MAQUINA_1, MAQUINA_2, MAQUINA_3, /*MAQUINA_4*/;
+        MAQUINA_1, MAQUINA_2, MAQUINA_3, MAQUINA_4;
     }
 
     private SessionFactory conexion;
@@ -75,11 +75,19 @@ public class Nodo {
                 break;
 
             }
-            /*case MAQUINA_4: {
-            conexion = Connection.getSessionFactory("hibernate4.cfg.xml");
-            conexionReplica = Connection.getSessionFactory("hibernateReplica4.cfg.xml");
-            break;
-            }*/
+            case MAQUINA_4: {
+                try {
+                    conexion = Connection.getSessionFactory("hibernate4.cfg.xml");
+                } catch (Exception ex) {
+                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                try {
+                    conexionReplica = Connection.getSessionFactory("hibernateReplica4.cfg.xml");
+                } catch (Exception ex) {
+                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                break;
+            }
         }
     }
 
