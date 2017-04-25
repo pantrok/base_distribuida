@@ -14,7 +14,7 @@ import javax.persistence.Id;
  *
  * @author daniel
  */
-@Entity(name = "estado_nodos_replica")
+@Entity(name = "estado_nodos_replicas")
 public class EstadoNodoReplica implements Serializable {
     
     @Id

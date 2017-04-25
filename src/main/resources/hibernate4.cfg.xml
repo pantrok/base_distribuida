@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+
+        <!-- Assume test is the database name -->
+        <property name="hibernate.connection.url">jdbc:mysql://192.168.100.14/base_distribuida</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">admin</property>
+
+        <!-- Create the database schema on startup -->
+        <property name="hbm2ddl.auto">update</property>
+        
+        <!-- Show the queries prepare by hibernate -->
+        <property name="show_sql">true</property>
+                        
+        <!-- Names the annotated entity classes -->
+        <mapping class="basedistribuida.model.Colonia" />
+        <mapping class="basedistribuida.model.Direccion" />
+        <mapping class="basedistribuida.model.Estado" />
+        <mapping class="basedistribuida.model.Municipio" />
+        <mapping class="basedistribuida.model.Persona" />
+        <mapping class="basedistribuida.model.EstadoNodoReplica" />
+    </session-factory>
+</hibernate-configuration>

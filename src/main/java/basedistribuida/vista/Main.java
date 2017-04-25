@@ -27,19 +27,31 @@ public class Main {
     public static void main(String[] args) {
 
         Coordinador coordinador = new Coordinador();
+        
+        Estado estado = new Estado();
+        estado.setNombre("Puebla");
+        coordinador.insertarEstado(estado);
+        
         try {
             Thread.sleep(10000);
         } catch (InterruptedException e) {
             
         }
-        Estado estado = coordinador.obtenerEstadoById(3);
-        System.out.println(estado);
+        //Estado estado = coordinador.obtenerEstadoById(3);
+        //System.out.println(estado);
         
-        /*List<Estado> estados = coordinador.obtenerEstados();
+        
+        
+        
+        List<Estado> estados = coordinador.obtenerEstados();
         for (Estado edo : estados) {
             System.out.println(edo);
-            coordinador.borrarEstado(edo);
-        }*/
+            //coordinador.borrarEstado(edo);
+        }
+        
+        //Estado estado = new Estado();
+        //estado.setNombre("Tlaxcala");
+        //coordinador.insertarEstado(estado);
         
         //Probar personas junto con direcciones
         /*Estado estado = coordinador.obtenerEstadoById(3);

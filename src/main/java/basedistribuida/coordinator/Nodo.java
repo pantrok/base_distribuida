@@ -28,7 +28,7 @@ public class Nodo {
         this.maquina = maquina;
         iniciarConexiones();
     }
-
+    
     private void iniciarConexiones() {
         switch (maquina) {
             case MAQUINA_1: {

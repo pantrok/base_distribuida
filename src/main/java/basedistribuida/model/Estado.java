@@ -34,7 +34,7 @@ public class Estado implements Serializable{
     @Enumerated(EnumType.STRING)
     private Zona zona;
     @Column
-    private Integer checksum;
+    private String checksum;
 
     public Estado() {
     }
@@ -63,11 +63,11 @@ public class Estado implements Serializable{
         this.zona = zona;
     }
 
-    public Integer getChecksum() {
+    public String getChecksum() {
         return checksum;
     }
 
-    public void setChecksum(Integer checksum) {
+    public void setChecksum(String checksum) {
         this.checksum = checksum;
     }
 

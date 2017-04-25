@@ -34,7 +34,7 @@ public class Direccion implements Serializable {
     @Column
     private Integer cp;
     @Column
-    private Integer checksum;
+    private String checksum;
 
     public Direccion() {
     }
@@ -95,11 +95,11 @@ public class Direccion implements Serializable {
         this.cp = cp;
     }
 
-    public Integer getChecksum() {
+    public String getChecksum() {
         return checksum;
     }
 
-    public void setChecksum(Integer checksum) {
+    public void setChecksum(String checksum) {
         this.checksum = checksum;
     }
     

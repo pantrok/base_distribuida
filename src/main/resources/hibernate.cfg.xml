@@ -22,5 +22,6 @@
         <mapping class="basedistribuida.model.Estado" />
         <mapping class="basedistribuida.model.Municipio" />
         <mapping class="basedistribuida.model.Persona" />
+        <mapping class="basedistribuida.model.EstadoNodoReplica" />
     </session-factory>
 </hibernate-configuration>

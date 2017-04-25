@@ -47,4 +47,8 @@ public class ColoniaCtrl extends HibernateSession {
         return getAllByQuery(Colonia.class, "SELECT * FROM colonias WHERE idMunicipio = " + idMunicipio);
     }
     
+    public List<Colonia> obtenerTodos() {
+        return getAll(Colonia.class);
+    }
+    
 }
