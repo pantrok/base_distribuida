@@ -127,7 +127,32 @@ public class Coordinador {
         }
         return estado;
     }
+    public List<Colonia> obtenerColonias() {
+        List<Colonia> colonias = null;
+        Nodo nodo = getNodo(Maquina.MAQUINA_1);
+        validarReplicaCatalogos(nodo);
+        
+        if (nodo.getConexion() == null || REPLICA_MAQUINA1) {
+            try {
+                REPLICA_MAQUINA1 = true;
+                updateEdoNodo(nodo, "M1");
+                colonias = new ColoniaCtrl(nodo.getConexionReplica()).obtenerTodos();
+            } catch (JDBCConnectionException ex) {
+                System.out.println("Se perdio la conexion a la replica");
+            }
+        } else {
+            try {
+                colonias = new ColoniaCtrl(nodo.getConexion()).obtenerTodos();
+            } catch (JDBCConnectionException ex) {
+                System.out.println("Se desconecto el nodo principal");
+                colonias = new ColoniaCtrl(nodo.getConexionReplica()).obtenerTodos();
+                updateEdoNodo(nodo, "M1");
+                REPLICA_MAQUINA1 = true;
+            }
+        }
 
+        return colonias;
+    }
     public Municipio obtenerMunicipioById(int id) {
         Municipio municipio = null;
         Nodo nodo = getNodo(Maquina.MAQUINA_1);
