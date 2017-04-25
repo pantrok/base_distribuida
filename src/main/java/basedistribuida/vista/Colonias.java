@@ -1,10 +1,15 @@
 
 package basedistribuida.vista;
 
+import basedistribuida.coordinator.Coordinador;
+import basedistribuida.model.Colonia;
+import basedistribuida.model.Municipio;
 import java.awt.Image;
 import java.io.File;
+import java.util.List;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
+import javax.swing.table.DefaultTableModel;
 
 
  
@@ -14,9 +19,12 @@ public class Colonias extends javax.swing.JFrame {
  
 File file = null;
 Image img = null;
+private List<Colonia> listaColonias;
+private Coordinador coordinador;
 
     public Colonias() {
         initComponents();
+        cargarColonias();
  
 
         try {
@@ -164,13 +172,10 @@ Image img = null;
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null}
+
             },
             new String [] {
-                "id", "Nombre"
+                "id", "Nombre", "Municipio"
             }
         ));
         jTable1.setMaximumSize(new java.awt.Dimension(850, 600));
@@ -188,14 +193,47 @@ Image img = null;
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+    public void cargarColonias() {
+        coordinador = new Coordinador();
+        listaColonias = coordinador.obtenerColonias();
+        //Actualizamos modelo jTable
+        actualizarJTableModel();
+    }
 
+    private void actualizarJTableModel() {
+        DefaultTableModel tableModel = (DefaultTableModel) jTable1.getModel();
+        tableModel.setRowCount(0);
+        for (int i = 0; i < listaColonias.size(); i++) {
+            String[] data = new String[3];
+            data[0] = listaColonias.get(i).getId() + "";
+            data[1] = listaColonias.get(i).getNombre();
+            Municipio municipio = coordinador.obtenerMunicipioById(listaColonias.get(i).getIdMunicipio());
+            data[2] = municipio.getNombre();
+            tableModel.addRow(data);
+        }
+        jTable1.setModel(tableModel);
+        tableModel.fireTableDataChanged();
+    }
     private void botoneditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneditarActionPerformed
-Editarcolonia editarcolonia = new Editarcolonia();
-editarcolonia.setVisible(true);
+ int row = jTable1.getSelectedRow();
+        Colonia colonia = listaColonias.get(row);
+        System.out.println("row " + row + " estado " + listaColonias.get(row));
+        if (colonia != null) {
+            Editarcolonia editarcolonia = new Editarcolonia(this, colonia);
+            editarcolonia.setVisible(true);
+        }
     }//GEN-LAST:event_botoneditarActionPerformed
 
     private void botoneliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneliminarActionPerformed
-        
+       int row = jTable1.getSelectedRow();
+        Colonia colonia = listaColonias.get(row);
+        if (colonia != null) {
+            coordinador = new Coordinador();
+            coordinador.borrarColonia(colonia);
+            //Obtener estados una vez mas
+            listaColonias = coordinador.obtenerColonias();
+            //Actualizar modelo jTable
+            actualizarJTableModel(); }       
     }//GEN-LAST:event_botoneliminarActionPerformed
 
     private void botonbuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
@@ -211,7 +249,7 @@ this.setVisible(false);        // TODO add your handling code here:
     }//GEN-LAST:event_btnsalirActionPerformed
 
     private void btnagregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnagregarActionPerformed
-Agregarcolonia agregarcolonia = new Agregarcolonia();
+Agregarcolonia agregarcolonia = new Agregarcolonia(this);
 agregarcolonia.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnagregarActionPerformed
 
