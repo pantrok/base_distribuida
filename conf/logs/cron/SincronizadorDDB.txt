@@ -1,0 +1,25 @@
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+Hibernate: select estado0_.id as id1_3_, estado0_.checksum as checksum2_3_, estado0_.nombre as nombre3_3_, estado0_.zona as zona4_3_ from estados estado0_
+Hibernate: select estado0_.id as id1_3_0_, estado0_.checksum as checksum2_3_0_, estado0_.nombre as nombre3_3_0_, estado0_.zona as zona4_3_0_ from estados estado0_ where estado0_.id=?
+Hibernate: select estado0_.id as id1_3_0_, estado0_.checksum as checksum2_3_0_, estado0_.nombre as nombre3_3_0_, estado0_.zona as zona4_3_0_ from estados estado0_ where estado0_.id=?
+Hibernate: select estado0_.id as id1_3_, estado0_.checksum as checksum2_3_, estado0_.nombre as nombre3_3_, estado0_.zona as zona4_3_ from estados estado0_
+Hibernate: select estado0_.id as id1_3_0_, estado0_.checksum as checksum2_3_0_, estado0_.nombre as nombre3_3_0_, estado0_.zona as zona4_3_0_ from estados estado0_ where estado0_.id=?
+Hibernate: select estado0_.id as id1_3_0_, estado0_.checksum as checksum2_3_0_, estado0_.nombre as nombre3_3_0_, estado0_.zona as zona4_3_0_ from estados estado0_ where estado0_.id=?
+Hibernate: select municipio0_.id as id1_4_, municipio0_.checksum as checksum2_4_, municipio0_.idEstado as idEstado3_4_, municipio0_.nombre as nombre4_4_ from municipios municipio0_
+Hibernate: select municipio0_.id as id1_4_0_, municipio0_.checksum as checksum2_4_0_, municipio0_.idEstado as idEstado3_4_0_, municipio0_.nombre as nombre4_4_0_ from municipios municipio0_ where municipio0_.id=?
+Hibernate: select municipio0_.id as id1_4_0_, municipio0_.checksum as checksum2_4_0_, municipio0_.idEstado as idEstado3_4_0_, municipio0_.nombre as nombre4_4_0_ from municipios municipio0_ where municipio0_.id=?
+Hibernate: select municipio0_.id as id1_4_, municipio0_.checksum as checksum2_4_, municipio0_.idEstado as idEstado3_4_, municipio0_.nombre as nombre4_4_ from municipios municipio0_
+Hibernate: select municipio0_.id as id1_4_0_, municipio0_.checksum as checksum2_4_0_, municipio0_.idEstado as idEstado3_4_0_, municipio0_.nombre as nombre4_4_0_ from municipios municipio0_ where municipio0_.id=?
+Hibernate: select municipio0_.id as id1_4_0_, municipio0_.checksum as checksum2_4_0_, municipio0_.idEstado as idEstado3_4_0_, municipio0_.nombre as nombre4_4_0_ from municipios municipio0_ where municipio0_.id=?
+Hibernate: select colonia0_.id as id1_0_, colonia0_.checksum as checksum2_0_, colonia0_.idMunicipio as idMunici3_0_, colonia0_.nombre as nombre4_0_ from colonias colonia0_
+Hibernate: select colonia0_.id as id1_0_0_, colonia0_.checksum as checksum2_0_0_, colonia0_.idMunicipio as idMunici3_0_0_, colonia0_.nombre as nombre4_0_0_ from colonias colonia0_ where colonia0_.id=?
+Hibernate: select colonia0_.id as id1_0_0_, colonia0_.checksum as checksum2_0_0_, colonia0_.idMunicipio as idMunici3_0_0_, colonia0_.nombre as nombre4_0_0_ from colonias colonia0_ where colonia0_.id=?
+Hibernate: update colonias set checksum=?, idMunicipio=?, nombre=? where id=?
+Hibernate: select colonia0_.id as id1_0_, colonia0_.checksum as checksum2_0_, colonia0_.idMunicipio as idMunici3_0_, colonia0_.nombre as nombre4_0_ from colonias colonia0_
+Hibernate: select colonia0_.id as id1_0_0_, colonia0_.checksum as checksum2_0_0_, colonia0_.idMunicipio as idMunici3_0_0_, colonia0_.nombre as nombre4_0_0_ from colonias colonia0_ where colonia0_.id=?
+Hibernate: select colonia0_.id as id1_0_0_, colonia0_.checksum as checksum2_0_0_, colonia0_.idMunicipio as idMunici3_0_0_, colonia0_.nombre as nombre4_0_0_ from colonias colonia0_ where colonia0_.id=?
+Hibernate: update estado_nodos_replicas set sincronizada=? where replica=?
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
