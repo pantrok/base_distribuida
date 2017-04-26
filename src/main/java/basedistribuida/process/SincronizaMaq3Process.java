@@ -29,7 +29,7 @@ public class SincronizaMaq3Process extends Thread {
             System.out.println("Replica de " + nodo.getMaquina() + " abajo");
         } else {
             try {
-                EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M1");
+                EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M3");
                 if (estadoNodoReplica != null && estadoNodoReplica.getSincronizada() == 0) {
                     //La replica no esta actualizada, checamos si la particion primaria ya esta arriba
                     if (nodo.getConexion() != null) {
