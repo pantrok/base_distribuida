@@ -1,0 +1,3 @@
+CLASSPATH=".:/home/iovanny/NetBeansProjects/base_distribuida/lib/*"
+RHOME="/home/iovanny/NetBeansProjects/base_distribuida/target/classes"
+LOGS_PATH=/home/iovanny/NetBeansProjects/base_distribuida/conf/logs
