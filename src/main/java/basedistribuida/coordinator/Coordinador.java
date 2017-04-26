@@ -11,7 +11,6 @@ import basedistribuida.coordinator.Nodo.Maquina;
 import basedistribuida.model.Colonia;
 import basedistribuida.model.Direccion;
 import basedistribuida.model.Estado;
-import basedistribuida.model.Estado.Zona;
 import basedistribuida.model.EstadoNodoReplica;
 import basedistribuida.model.Municipio;
 import basedistribuida.model.Persona;
@@ -24,8 +23,6 @@ import basedistribuida.model.controller.PersonaCtrl;
 import basedistribuida.utils.Utils;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.hibernate.exception.JDBCConnectionException;
 
 /**

@@ -41,11 +41,9 @@ public class SincronizaMaq4Process extends Thread {
                             if (pNodoPrimario == null) {
                                 new PersonaCtrl(nodo.getConexion()).savePersona(p);
                                 new DireccionCtrl(nodo.getConexion()).saveDireccion(d);
-                            } else {
-                                if (!p.getChecksum().equals(pNodoPrimario.getChecksum())) {
-                                    new PersonaCtrl(nodo.getConexion()).updatePersona(p);
-                                    new DireccionCtrl(nodo.getConexion()).updateDireccion(d);
-                                }
+                            } else if (!p.getChecksum().equals(pNodoPrimario.getChecksum())) {
+                                new PersonaCtrl(nodo.getConexion()).updatePersona(p);
+                                new DireccionCtrl(nodo.getConexion()).updateDireccion(d);
                             }
                         }
                         personas = new PersonaCtrl(nodo.getConexion()).obtenerTodos();
@@ -57,17 +55,27 @@ public class SincronizaMaq4Process extends Thread {
                                 new DireccionCtrl(nodo.getConexion()).deleteDireccion(d);
                             }
                         }
+                        estadoNodoReplica.setSincronizada(1);
+                        new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).updateEstadoNodoReplica(estadoNodoReplica);
+
+                    } else {
+                        System.out.println("Aun no se reestablece la conexion al nodo principal");
                     }
+
+                } else {
+                    System.out.println("La base esta actualizada");
                 }
             } catch (JDBCConnectionException ex) {
                 System.out.println("Se perdio la conexion a la replica o al nodo primario");
             }
         }
 
+        System.exit(0);
+        
     }
-    
+
     public static void main(String[] args) {
         new SincronizaMaq2Process().start();
     }
-    
+
 }

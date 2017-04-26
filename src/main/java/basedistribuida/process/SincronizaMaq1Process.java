@@ -45,13 +45,10 @@ public class SincronizaMaq1Process extends Thread {
                             if (edoNodoPrimario == null) {
                                 //No existe asi que no lo insertamos
                                 new EstadoCtrl(nodo.getConexion()).saveEstado(edo);
-                            } else {
-                                //Ya existe, checamos si el checksum es distinto
-                                if (!edo.getChecksum().equals(edoNodoPrimario.getChecksum())) {
-                                    //Actualizamos
-                                    new EstadoCtrl(nodo.getConexion()).updateEstado(edo);
-                                }
-                                
+                            } else //Ya existe, checamos si el checksum es distinto
+                            if (!edo.getChecksum().equals(edoNodoPrimario.getChecksum())) {
+                                //Actualizamos
+                                new EstadoCtrl(nodo.getConexion()).updateEstado(edo);
                             }
                         }
                         estados = new EstadoCtrl(nodo.getConexion()).obtenerTodos();
@@ -71,13 +68,10 @@ public class SincronizaMaq1Process extends Thread {
                             if (munNodoPrimario == null) {
                                 //No existe asi que no lo insertamos
                                 new MunicipioCtrl(nodo.getConexion()).saveMunicipio(mun);
-                            } else {
-                                //Ya existe, checamos si el checksum es distinto
-                                if (!mun.getChecksum().equals(munNodoPrimario.getChecksum())) {
-                                    //Actualizamos
-                                    new MunicipioCtrl(nodo.getConexion()).updateMunicipio(mun);
-                                }
-                                
+                            } else //Ya existe, checamos si el checksum es distinto
+                            if (!mun.getChecksum().equals(munNodoPrimario.getChecksum())) {
+                                //Actualizamos
+                                new MunicipioCtrl(nodo.getConexion()).updateMunicipio(mun);
                             }
                         }
                         municipios = new MunicipioCtrl(nodo.getConexion()).obtenerTodos();
@@ -97,13 +91,10 @@ public class SincronizaMaq1Process extends Thread {
                             if (colNodoPrimario == null) {
                                 //No existe asi que no lo insertamos
                                 new ColoniaCtrl(nodo.getConexion()).saveColonia(col);
-                            } else {
-                                //Ya existe, checamos si el checksum es distinto
-                                if (!col.getChecksum().equals(colNodoPrimario.getChecksum())) {
-                                    //Actualizamos
-                                    new ColoniaCtrl(nodo.getConexion()).updateColonia(col);
-                                }
-                                
+                            } else //Ya existe, checamos si el checksum es distinto
+                            if (!col.getChecksum().equals(colNodoPrimario.getChecksum())) {
+                                //Actualizamos
+                                new ColoniaCtrl(nodo.getConexion()).updateColonia(col);
                             }
                         }
                         colonias = new ColoniaCtrl(nodo.getConexion()).obtenerTodos();
@@ -115,15 +106,26 @@ public class SincronizaMaq1Process extends Thread {
                                 new ColoniaCtrl(nodo.getConexion()).deleteColonia(col);
                             }
                         }
+
+                        estadoNodoReplica.setSincronizada(1);
+                        new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).updateEstadoNodoReplica(estadoNodoReplica);
+
+                    } else {
+                        System.out.println("Aun no se reestablece la conexion al nodo principal");
                     }
+
+                } else {
+                    System.out.println("La base esta actualizada");
                 }
             } catch (JDBCConnectionException ex) {
                 System.out.println("Se perdio la conexion a la replica");
             }
         }
 
+        System.exit(0);
+        
     }
-    
+
     public static void main(String[] args) {
         new SincronizaMaq1Process().start();
     }
