@@ -6,8 +6,6 @@
 package basedistribuida.coordinator;
 
 import basedistribuida.connection.Connection;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.hibernate.SessionFactory;
 
 /**
