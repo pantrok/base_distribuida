@@ -1,10 +1,18 @@
 
 package basedistribuida.vista;
 
+import basedistribuida.beans.InformacionPersona;
+import basedistribuida.coordinator.Coordinador;
+import basedistribuida.model.Persona;
+import basedistribuida.model.Colonia;
+import basedistribuida.model.Estado;
+import basedistribuida.model.Municipio;
 import java.awt.Image;
 import java.io.File;
+import java.util.List;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
+import javax.swing.table.DefaultTableModel;
 
 
  
@@ -14,9 +22,12 @@ public class Personas extends javax.swing.JFrame {
  
 File file = null;
 Image img = null;
+private List<InformacionPersona> listaPersonas;
+private Coordinador coordinador;
 
     public Personas() {
         initComponents();
+        cargarPersonas();
         try {
             file = new File(System.getProperty("user.dir") + "/archivos/312408.png");
             img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
@@ -203,19 +214,55 @@ Image img = null;
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+public void cargarPersonas() {
+        coordinador = new Coordinador();
+        listaPersonas = coordinador.obtenerPersonas();
+        //Actualizamos modelo jTable
+        actualizarJTableModel();
+    }
 
+    private void actualizarJTableModel() {
+        DefaultTableModel tableModel = (DefaultTableModel) jTable1.getModel();
+        tableModel.setRowCount(0);
+        for (int i = 0; i < listaPersonas.size(); i++) {
+            String[] data = new String[6];
+            data[0] = listaPersonas.get(i).getPersona().getId()+ "";
+            data[1] = listaPersonas.get(i).getPersona().getNombre();
+            data[2] = listaPersonas.get(i).getPersona().getApellidoPaterno();
+            data[3] = listaPersonas.get(i).getPersona().getApellidoMaterno();
+            data[4] = listaPersonas.get(i).getPersona().getFechaNacimiento()+"";
+            data[5] = listaPersonas.get(i).getPersona().getGenero().name();             
+            tableModel.addRow(data);
+        }
+        jTable1.setModel(tableModel);
+        tableModel.fireTableDataChanged();
+    }
     private void botonVerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonVerActionPerformed
 Verpersona verpersona = new Verpersona();
 verpersona.setVisible(true);
     }//GEN-LAST:event_botonVerActionPerformed
 
     private void botoneditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneditarActionPerformed
-Editarpersona editarpersona = new Editarpersona();
-editarpersona.setVisible(true);
+ int row = jTable1.getSelectedRow();
+        InformacionPersona persona = listaPersonas.get(row);
+        System.out.println("row " + row + " estado " + listaPersonas.get(row));
+        if (persona != null) {
+           // Editarpersona editarpersona = new Editarpersona(this, persona);
+            //editarpersona.setVisible(true);
+        }
     }//GEN-LAST:event_botoneditarActionPerformed
 
     private void botoneliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneliminarActionPerformed
-        
+     int row = jTable1.getSelectedRow();
+        InformacionPersona persona = listaPersonas.get(row);
+         if (persona != null) {
+            coordinador = new Coordinador();
+            Estado estado = coordinador.obtenerEstadoById(persona.getDireccion().getIdEstado());
+            coordinador.borrarInformacionPersona(persona.getPersona(),persona.getDireccion(),estado);
+            //Obtener estados una vez mas
+            listaPersonas = coordinador.obtenerPersonas();
+            //Actualizar modelo jTable
+            actualizarJTableModel(); }           
     }//GEN-LAST:event_botoneliminarActionPerformed
 
     private void botonbuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
@@ -231,54 +278,11 @@ this.setVisible(false);        // TODO add your handling code here:
     }//GEN-LAST:event_btnsalirActionPerformed
 
     private void btnagregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnagregarActionPerformed
-Agregarpersona agregarpersona = new Agregarpersona();
+Agregarpersona agregarpersona = new Agregarpersona(this);
 agregarpersona.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnagregarActionPerformed
 
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Personas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Personas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Personas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Personas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
- Personas principal = new Personas();
- principal.setVisible(true);
-    }
-
+ 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botonVer;
     private javax.swing.JButton botonbuscar;

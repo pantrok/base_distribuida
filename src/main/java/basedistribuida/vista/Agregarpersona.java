@@ -5,16 +5,27 @@
  */
 package basedistribuida.vista;
 
+import basedistribuida.coordinator.Coordinador;
+import basedistribuida.model.Direccion;
+import basedistribuida.model.Estado;
+import basedistribuida.model.Persona;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author iovanny
  */
 public class Agregarpersona extends javax.swing.JFrame {
+private Personas personasFrame;
 
+    private Coordinador coordinador;
     /**
      * Creates new form Agregarpersona
      */
-    public Agregarpersona() {
+    public Agregarpersona(Personas personasFrame) {
+        this.personasFrame = personasFrame;
         initComponents();
     }
 
@@ -54,18 +65,15 @@ public class Agregarpersona extends javax.swing.JFrame {
         pnl_cp = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         tb_cp = new javax.swing.JTextField();
-        pnl_colonia = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
-        tb_colonia = new javax.swing.JTextField();
-        pnl_municipio = new javax.swing.JPanel();
-        jLabel10 = new javax.swing.JLabel();
-        tb_municipio = new javax.swing.JTextField();
         pnl_estado = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         tb_estado = new javax.swing.JTextField();
-        pnl_zona = new javax.swing.JPanel();
-        jLabel12 = new javax.swing.JLabel();
-        tb_zona = new javax.swing.JTextField();
+        pnl_municipio = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
+        tb_municipio = new javax.swing.JTextField();
+        pnl_colonia = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
+        tb_colonia = new javax.swing.JTextField();
         panelfooter = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         btn_guardar = new javax.swing.JButton();
@@ -211,21 +219,21 @@ public class Agregarpersona extends javax.swing.JFrame {
 
         paneldatos.add(pnl_cp);
 
-        pnl_colonia.setLayout(new javax.swing.BoxLayout(pnl_colonia, javax.swing.BoxLayout.LINE_AXIS));
+        pnl_estado.setLayout(new javax.swing.BoxLayout(pnl_estado, javax.swing.BoxLayout.LINE_AXIS));
 
-        jLabel9.setText("Colonia");
-        jLabel9.setMaximumSize(new java.awt.Dimension(200, 20));
-        jLabel9.setMinimumSize(new java.awt.Dimension(200, 20));
-        jLabel9.setName(""); // NOI18N
-        jLabel9.setPreferredSize(new java.awt.Dimension(200, 20));
-        pnl_colonia.add(jLabel9);
+        jLabel11.setText("Estado");
+        jLabel11.setMaximumSize(new java.awt.Dimension(200, 20));
+        jLabel11.setMinimumSize(new java.awt.Dimension(200, 20));
+        jLabel11.setName(""); // NOI18N
+        jLabel11.setPreferredSize(new java.awt.Dimension(200, 20));
+        pnl_estado.add(jLabel11);
 
-        tb_colonia.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_colonia.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_colonia.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_colonia.add(tb_colonia);
+        tb_estado.setMaximumSize(new java.awt.Dimension(300, 30));
+        tb_estado.setMinimumSize(new java.awt.Dimension(300, 30));
+        tb_estado.setPreferredSize(new java.awt.Dimension(300, 30));
+        pnl_estado.add(tb_estado);
 
-        paneldatos.add(pnl_colonia);
+        paneldatos.add(pnl_estado);
 
         pnl_municipio.setLayout(new javax.swing.BoxLayout(pnl_municipio, javax.swing.BoxLayout.LINE_AXIS));
 
@@ -243,37 +251,21 @@ public class Agregarpersona extends javax.swing.JFrame {
 
         paneldatos.add(pnl_municipio);
 
-        pnl_estado.setLayout(new javax.swing.BoxLayout(pnl_estado, javax.swing.BoxLayout.LINE_AXIS));
+        pnl_colonia.setLayout(new javax.swing.BoxLayout(pnl_colonia, javax.swing.BoxLayout.LINE_AXIS));
 
-        jLabel11.setText("Estado");
-        jLabel11.setMaximumSize(new java.awt.Dimension(200, 20));
-        jLabel11.setMinimumSize(new java.awt.Dimension(200, 20));
-        jLabel11.setName(""); // NOI18N
-        jLabel11.setPreferredSize(new java.awt.Dimension(200, 20));
-        pnl_estado.add(jLabel11);
+        jLabel9.setText("Colonia");
+        jLabel9.setMaximumSize(new java.awt.Dimension(200, 20));
+        jLabel9.setMinimumSize(new java.awt.Dimension(200, 20));
+        jLabel9.setName(""); // NOI18N
+        jLabel9.setPreferredSize(new java.awt.Dimension(200, 20));
+        pnl_colonia.add(jLabel9);
 
-        tb_estado.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_estado.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_estado.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_estado.add(tb_estado);
+        tb_colonia.setMaximumSize(new java.awt.Dimension(300, 30));
+        tb_colonia.setMinimumSize(new java.awt.Dimension(300, 30));
+        tb_colonia.setPreferredSize(new java.awt.Dimension(300, 30));
+        pnl_colonia.add(tb_colonia);
 
-        paneldatos.add(pnl_estado);
-
-        pnl_zona.setLayout(new javax.swing.BoxLayout(pnl_zona, javax.swing.BoxLayout.LINE_AXIS));
-
-        jLabel12.setText("Zona");
-        jLabel12.setMaximumSize(new java.awt.Dimension(200, 20));
-        jLabel12.setMinimumSize(new java.awt.Dimension(200, 20));
-        jLabel12.setName(""); // NOI18N
-        jLabel12.setPreferredSize(new java.awt.Dimension(200, 20));
-        pnl_zona.add(jLabel12);
-
-        tb_zona.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_zona.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_zona.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_zona.add(tb_zona);
-
-        paneldatos.add(pnl_zona);
+        paneldatos.add(pnl_colonia);
 
         panelcontenido.add(paneldatos);
 
@@ -298,6 +290,11 @@ public class Agregarpersona extends javax.swing.JFrame {
         panelfooter.add(jPanel1);
 
         btn_guardar.setText("Guardar");
+        btn_guardar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_guardarActionPerformed(evt);
+            }
+        });
         panelfooter.add(btn_guardar);
 
         btn_cancelar.setText("Cancelar");
@@ -308,111 +305,50 @@ public class Agregarpersona extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btn_guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_guardarActionPerformed
+          if (tb_nombre.getText().length() > 0) {
+            coordinador = new Coordinador();
+            Persona persona = new Persona();
+            Direccion direccion = new Direccion();
+            persona.setNombre(tb_nombre.getText());
+            persona.setApellidoPaterno(tb_apaterno.getText());
+            persona.setApellidoMaterno(tb_amaterno.getText());
+            persona.setGenero(Persona.Genero.valueOf(tb_genero.getText()));
+            SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+            try{
+            persona.setFechaNacimiento(formatter.parse(tb_fecnac.getText()));
+              }catch(ParseException e){}            
+            direccion.setCalle(tb_calle.getText());
+            direccion.setCp(Integer.parseInt(tb_cp.getText()));
+           
+            int idestado = Integer.parseInt(tb_estado.getText());
+            direccion.setIdEstado(idestado);
+
+            direccion.setIdMunicipio(Integer.parseInt(tb_municipio.getText()));
+            direccion.setIdColonia(Integer.parseInt(tb_colonia.getText()));
+            Estado estado = coordinador.obtenerEstadoById(idestado);
+            //Municipio municipio = listaMunicipios.get(jComboBox1.getSelectedIndex());
+            coordinador.insertarPersona(persona, direccion, estado);
+            personasFrame.cargarPersonas();
+            dispose();
+            //Mensaje de actualizacion exitosa
+            JOptionPane.showMessageDialog(this, "Colonia insertada correctamente", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
+        } else {
+            //Mandar mensaje de que se necesitan datos
+            JOptionPane.showMessageDialog(this, "Todos los datos son necesarios", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_btn_guardarActionPerformed
+
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Agregarpersona.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Agregarpersona.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Agregarpersona.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Agregarpersona.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Agregarpersona().setVisible(true);
-            }
-        });
-    }
-
+  
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_cancelar;
     private javax.swing.JButton btn_guardar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -437,7 +373,6 @@ public class Agregarpersona extends javax.swing.JFrame {
     private javax.swing.JPanel pnl_id;
     private javax.swing.JPanel pnl_municipio;
     private javax.swing.JPanel pnl_nombre;
-    private javax.swing.JPanel pnl_zona;
     private javax.swing.JTextField tb_amaterno;
     private javax.swing.JTextField tb_apaterno;
     private javax.swing.JTextField tb_calle;
@@ -449,6 +384,5 @@ public class Agregarpersona extends javax.swing.JFrame {
     private javax.swing.JTextField tb_id;
     private javax.swing.JTextField tb_municipio;
     private javax.swing.JTextField tb_nombre;
-    private javax.swing.JTextField tb_zona;
     // End of variables declaration//GEN-END:variables
 }
