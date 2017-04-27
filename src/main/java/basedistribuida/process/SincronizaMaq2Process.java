@@ -49,8 +49,8 @@ public class SincronizaMaq2Process extends Thread {
                             }
                             personas = new PersonaCtrl(nodo.getConexion()).obtenerTodos();
                             for (Persona p : personas) {
-                                Direccion d = new DireccionCtrl(nodo.getConexion()).findDireccionByPersonaId(p.getId());
-                                Persona pNodoReplica = new PersonaCtrl(nodo.getConexion()).findPersonaById(p.getId());
+                                Direccion d = new DireccionCtrl(nodo.getConexionReplica()).findDireccionByPersonaId(p.getId());
+                                Persona pNodoReplica = new PersonaCtrl(nodo.getConexionReplica()).findPersonaById(p.getId());
                                 if (pNodoReplica == null) {
                                     new PersonaCtrl(nodo.getConexion()).deletePersona(p);
                                     new DireccionCtrl(nodo.getConexion()).deleteDireccion(d);
