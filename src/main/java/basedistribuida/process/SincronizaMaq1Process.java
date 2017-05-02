@@ -5,6 +5,7 @@
  */
 package basedistribuida.process;
 
+import basedistribuida.connection.Connection;
 import basedistribuida.coordinator.Nodo;
 import basedistribuida.model.Colonia;
 import basedistribuida.model.Estado;
@@ -27,8 +28,8 @@ public class SincronizaMaq1Process extends Thread {
     @Override
     public void run() {
 
+        Nodo nodo = new Nodo(Nodo.Maquina.MAQUINA_1);
         try {
-            Nodo nodo = new Nodo(Nodo.Maquina.MAQUINA_1);
             if (nodo.getConexionReplica() == null) {
                 System.out.println("Replica de " + nodo.getMaquina() + " abajo");
             } else {
@@ -130,6 +131,12 @@ public class SincronizaMaq1Process extends Thread {
             }
 
         } finally {
+            if (nodo.getConexion() != null) {
+                Connection.dispose(nodo.getConexion());
+            }
+            if (nodo.getConexionReplica()!= null) {
+                Connection.dispose(nodo.getConexionReplica());
+            }
             System.exit(0);
         }
 
