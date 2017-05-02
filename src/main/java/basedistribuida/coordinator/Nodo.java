@@ -33,13 +33,12 @@ public class Nodo {
                 try {
                     conexion = Connection.getSessionFactory("hibernate.cfg.xml");
                 } catch (Exception ex) {
-                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                    conexion = null;
                 }
                 try {
-                    //conexionReplica = Connection.getSessionFactory("hibernate2.cfg.xml");
                     conexionReplica = Connection.getSessionFactory("hibernateReplica.cfg.xml");
                 } catch (Exception ex) {
-                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                    conexionReplica = null;
                 }
                 break;
 
@@ -48,13 +47,12 @@ public class Nodo {
                 try {
                     conexion = Connection.getSessionFactory("hibernate2.cfg.xml");
                 } catch (Exception ex) {
-                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                    conexion = null;
                 }
-                //conexionReplica = Connection.getSessionFactory("hibernate.cfg.xml");
                 try {
                     conexionReplica = Connection.getSessionFactory("hibernateReplica2.cfg.xml");
                 } catch (Exception ex) {
-                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                    conexionReplica = null;
                 }
                 break;
 
@@ -63,12 +61,12 @@ public class Nodo {
                 try {
                     conexion = Connection.getSessionFactory("hibernate3.cfg.xml");
                 } catch (Exception ex) {
-                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                    conexion = null;
                 }
                 try {
                     conexionReplica = Connection.getSessionFactory("hibernateReplica3.cfg.xml");
                 } catch (Exception ex) {
-                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                    conexionReplica = null;
                 }
                 break;
 
@@ -77,12 +75,12 @@ public class Nodo {
                 try {
                     conexion = Connection.getSessionFactory("hibernate4.cfg.xml");
                 } catch (Exception ex) {
-                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                    conexion = null;
                 }
                 try {
                     conexionReplica = Connection.getSessionFactory("hibernateReplica4.cfg.xml");
                 } catch (Exception ex) {
-                    //Logger.getLogger(Nodo.class.getName()).log(Level.SEVERE, null, ex);
+                    conexionReplica = null;
                 }
                 break;
             }

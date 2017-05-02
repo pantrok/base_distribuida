@@ -70,7 +70,7 @@ public class Coordinador {
         List<Estado> estados = null;
         Nodo nodo = getNodo(Maquina.MAQUINA_1);
         validarReplicaCatalogos(nodo);
-        
+
         if (nodo.getConexion() == null || REPLICA_MAQUINA1) {
             try {
                 REPLICA_MAQUINA1 = true;
@@ -124,11 +124,12 @@ public class Coordinador {
         }
         return estado;
     }
+
     public List<Colonia> obtenerColonias() {
         List<Colonia> colonias = null;
         Nodo nodo = getNodo(Maquina.MAQUINA_1);
         validarReplicaCatalogos(nodo);
-        
+
         if (nodo.getConexion() == null || REPLICA_MAQUINA1) {
             try {
                 REPLICA_MAQUINA1 = true;
@@ -150,6 +151,7 @@ public class Coordinador {
 
         return colonias;
     }
+
     public Municipio obtenerMunicipioById(int id) {
         Municipio municipio = null;
         Nodo nodo = getNodo(Maquina.MAQUINA_1);
@@ -203,12 +205,12 @@ public class Coordinador {
 
         return municipios;
     }
-    
+
     public List<Municipio> obtenerMunicipios() {
         List<Municipio> municipios = null;
         Nodo nodo = getNodo(Maquina.MAQUINA_1);
         validarReplicaCatalogos(nodo);
-        
+
         if (nodo.getConexion() == null || REPLICA_MAQUINA1) {
             try {
                 REPLICA_MAQUINA1 = true;
@@ -586,7 +588,7 @@ public class Coordinador {
     }
 
     private void validarReplicaCatalogos(Nodo nodo) {
-        if (REPLICA_MAQUINA1 && nodo.getConexionReplica() != null) {
+        if (nodo.getConexionReplica() != null && REPLICA_MAQUINA1) {
             try {
                 EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M1");
                 if (estadoNodoReplica.getSincronizada() == 1) {
@@ -595,7 +597,7 @@ public class Coordinador {
             } catch (JDBCConnectionException ex) {
                 System.out.println("Se perdio la conexion a la replica");
             }
-        } else {
+        } else if (nodo.getConexionReplica() != null && !REPLICA_MAQUINA1) {
             try {
                 EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M1");
                 if (estadoNodoReplica.getSincronizada() == 0) {
@@ -604,6 +606,8 @@ public class Coordinador {
             } catch (JDBCConnectionException ex) {
                 System.out.println("Se perdio la conexion a la replica");
             }
+        } else {
+            REPLICA_MAQUINA1 = false;
         }
     }
 
@@ -612,7 +616,7 @@ public class Coordinador {
         switch (estado.getZona()) {
             case Sur:
                 nodo = getNodo(Maquina.MAQUINA_2);
-                if (REPLICA_MAQUINA2 && nodo.getConexionReplica() != null) {
+                if (nodo.getConexionReplica() != null && REPLICA_MAQUINA2) {
                     try {
                         EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M2");
                         if (estadoNodoReplica.getSincronizada() == 1) {
@@ -621,7 +625,7 @@ public class Coordinador {
                     } catch (JDBCConnectionException ex) {
                         System.out.println("Se perdio la conexion a la replica");
                     }
-                } else {
+                } else if (nodo.getConexionReplica() != null && !REPLICA_MAQUINA2) {
                     try {
                         EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M2");
                         if (estadoNodoReplica.getSincronizada() == 0) {
@@ -630,11 +634,13 @@ public class Coordinador {
                     } catch (JDBCConnectionException ex) {
                         System.out.println("Se perdio la conexion a la replica");
                     }
+                } else {
+                    REPLICA_MAQUINA2 = false;
                 }
                 break;
             case Centro:
                 nodo = getNodo(Maquina.MAQUINA_3);
-                if (REPLICA_MAQUINA3 && nodo.getConexionReplica() != null) {
+                if (nodo.getConexionReplica() != null && REPLICA_MAQUINA3) {
                     try {
                         EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M3");
                         if (estadoNodoReplica.getSincronizada() == 1) {
@@ -643,7 +649,7 @@ public class Coordinador {
                     } catch (JDBCConnectionException ex) {
                         System.out.println("Se perdio la conexion a la replica");
                     }
-                } else {
+                } else if (nodo.getConexionReplica() != null && !REPLICA_MAQUINA3) {
                     try {
                         EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M3");
                         if (estadoNodoReplica.getSincronizada() == 0) {
@@ -652,11 +658,13 @@ public class Coordinador {
                     } catch (JDBCConnectionException ex) {
                         System.out.println("Se perdio la conexion a la replica");
                     }
+                } else {
+                    REPLICA_MAQUINA3 = false;
                 }
                 break;
             default:
                 nodo = getNodo(Maquina.MAQUINA_4);
-                if (REPLICA_MAQUINA4 && nodo.getConexionReplica() != null) {
+                if (nodo.getConexionReplica() != null && REPLICA_MAQUINA4) {
                     try {
                         EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M4");
                         if (estadoNodoReplica.getSincronizada() == 1) {
@@ -665,7 +673,7 @@ public class Coordinador {
                     } catch (JDBCConnectionException ex) {
                         System.out.println("Se perdio la conexion a la replica");
                     }
-                } else {
+                } else if (nodo.getConexionReplica() != null && !REPLICA_MAQUINA4) {
                     try {
                         EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M4");
                         if (estadoNodoReplica.getSincronizada() == 0) {
@@ -674,6 +682,83 @@ public class Coordinador {
                     } catch (JDBCConnectionException ex) {
                         System.out.println("Se perdio la conexion a la replica");
                     }
+                } else {
+                    REPLICA_MAQUINA4 = false;
+                }
+                break;
+        }
+        return nodo;
+    }
+    
+    private Nodo validarNodo(Nodo nodo) {
+        switch (nodo.getMaquina()) {
+            case MAQUINA_2:
+                if (nodo.getConexionReplica() != null && REPLICA_MAQUINA2) {
+                    try {
+                        EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M2");
+                        if (estadoNodoReplica.getSincronizada() == 1) {
+                            REPLICA_MAQUINA2 = false;
+                        }
+                    } catch (JDBCConnectionException ex) {
+                        System.out.println("Se perdio la conexion a la replica");
+                    }
+                } else if (nodo.getConexionReplica() != null && !REPLICA_MAQUINA2) {
+                    try {
+                        EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M2");
+                        if (estadoNodoReplica.getSincronizada() == 0) {
+                            REPLICA_MAQUINA2 = true;
+                        }
+                    } catch (JDBCConnectionException ex) {
+                        System.out.println("Se perdio la conexion a la replica");
+                    }
+                } else {
+                    REPLICA_MAQUINA2 = false;
+                }
+                break;
+            case MAQUINA_3:
+                if (nodo.getConexionReplica() != null && REPLICA_MAQUINA3) {
+                    try {
+                        EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M3");
+                        if (estadoNodoReplica.getSincronizada() == 1) {
+                            REPLICA_MAQUINA3 = false;
+                        }
+                    } catch (JDBCConnectionException ex) {
+                        System.out.println("Se perdio la conexion a la replica");
+                    }
+                } else if (nodo.getConexionReplica() != null && !REPLICA_MAQUINA3) {
+                    try {
+                        EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M3");
+                        if (estadoNodoReplica.getSincronizada() == 0) {
+                            REPLICA_MAQUINA3 = true;
+                        }
+                    } catch (JDBCConnectionException ex) {
+                        System.out.println("Se perdio la conexion a la replica");
+                    }
+                } else {
+                    REPLICA_MAQUINA3 = false;
+                }
+                break;
+            default:
+                if (nodo.getConexionReplica() != null && REPLICA_MAQUINA4) {
+                    try {
+                        EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M4");
+                        if (estadoNodoReplica.getSincronizada() == 1) {
+                            REPLICA_MAQUINA4 = false;
+                        }
+                    } catch (JDBCConnectionException ex) {
+                        System.out.println("Se perdio la conexion a la replica");
+                    }
+                } else if (nodo.getConexionReplica() != null && !REPLICA_MAQUINA4) {
+                    try {
+                        EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M4");
+                        if (estadoNodoReplica.getSincronizada() == 0) {
+                            REPLICA_MAQUINA4 = true;
+                        }
+                    } catch (JDBCConnectionException ex) {
+                        System.out.println("Se perdio la conexion a la replica");
+                    }
+                } else {
+                    REPLICA_MAQUINA4 = false;
                 }
                 break;
         }
@@ -820,11 +905,12 @@ public class Coordinador {
     //ObtenerPersonas
     public List<InformacionPersona> obtenerPersonas() {
         List<InformacionPersona> personas = null;
-        Nodo nodo2 = getNodo(Maquina.MAQUINA_2);
-        Nodo nodo3 = getNodo(Maquina.MAQUINA_3);
-        Nodo nodo4 = getNodo(Maquina.MAQUINA_4);
+        Nodo nodo2 = validarNodo(getNodo(Maquina.MAQUINA_2));
+        Nodo nodo3 = validarNodo(getNodo(Maquina.MAQUINA_3));
+        Nodo nodo4 = validarNodo(getNodo(Maquina.MAQUINA_4));
 
         personas = new ArrayList<>();
+        List<InformacionPersona> personasFrag = new ArrayList<>();
         if (nodo2.getConexion() == null || REPLICA_MAQUINA2) {
             try {
                 REPLICA_MAQUINA2 = true;
@@ -842,20 +928,24 @@ public class Coordinador {
                 for (Persona persona : new PersonaCtrl(nodo2.getConexion()).obtenerTodos()) {
                     Direccion direccion = new DireccionCtrl(nodo2.getConexion()).findDireccionByPersonaId(persona.getId());
                     InformacionPersona info = new InformacionPersona(persona, direccion);
-                    personas.add(info);
+                    personasFrag.add(info);
                 }
+                personas.addAll(personasFrag);
             } catch (JDBCConnectionException ex) {
                 System.out.println("El nodo primario fallo");
                 REPLICA_MAQUINA2 = true;
                 updateEdoNodo(nodo2, "M2");
+                personasFrag = new ArrayList<>();
                 for (Persona persona : new PersonaCtrl(nodo2.getConexionReplica()).obtenerTodos()) {
                     Direccion direccion = new DireccionCtrl(nodo2.getConexionReplica()).findDireccionByPersonaId(persona.getId());
                     InformacionPersona info = new InformacionPersona(persona, direccion);
-                    personas.add(info);
+                    personasFrag.add(info);
                 }
+                personas.addAll(personasFrag);
             }
         }
 
+        personasFrag = new ArrayList<>();
         if (nodo3.getConexion() == null || REPLICA_MAQUINA3) {
             try {
                 REPLICA_MAQUINA3 = true;
@@ -873,20 +963,24 @@ public class Coordinador {
                 for (Persona persona : new PersonaCtrl(nodo3.getConexion()).obtenerTodos()) {
                     Direccion direccion = new DireccionCtrl(nodo3.getConexion()).findDireccionByPersonaId(persona.getId());
                     InformacionPersona info = new InformacionPersona(persona, direccion);
-                    personas.add(info);
+                    personasFrag.add(info);
                 }
+                personas.addAll(personasFrag);
             } catch (JDBCConnectionException ex) {
                 System.out.println("El nodo primario fallo");
                 REPLICA_MAQUINA3 = true;
                 updateEdoNodo(nodo3, "M3");
+                personasFrag = new ArrayList<>();
                 for (Persona persona : new PersonaCtrl(nodo3.getConexionReplica()).obtenerTodos()) {
                     Direccion direccion = new DireccionCtrl(nodo3.getConexionReplica()).findDireccionByPersonaId(persona.getId());
                     InformacionPersona info = new InformacionPersona(persona, direccion);
-                    personas.add(info);
+                    personasFrag.add(info);
                 }
+                personas.addAll(personasFrag);
             }
         }
 
+        personasFrag = new ArrayList<>();
         if (nodo4.getConexion() == null || REPLICA_MAQUINA4) {
             try {
                 REPLICA_MAQUINA4 = true;
@@ -904,17 +998,20 @@ public class Coordinador {
                 for (Persona persona : new PersonaCtrl(nodo4.getConexion()).obtenerTodos()) {
                     Direccion direccion = new DireccionCtrl(nodo4.getConexion()).findDireccionByPersonaId(persona.getId());
                     InformacionPersona info = new InformacionPersona(persona, direccion);
-                    personas.add(info);
+                    personasFrag.add(info);
                 }
+                personas.addAll(personasFrag);
             } catch (JDBCConnectionException ex) {
                 System.out.println("El nodo primario fallo");
                 REPLICA_MAQUINA4 = true;
                 updateEdoNodo(nodo4, "M4");
+                personasFrag = new ArrayList<>();
                 for (Persona persona : new PersonaCtrl(nodo4.getConexionReplica()).obtenerTodos()) {
                     Direccion direccion = new DireccionCtrl(nodo4.getConexionReplica()).findDireccionByPersonaId(persona.getId());
                     InformacionPersona info = new InformacionPersona(persona, direccion);
-                    personas.add(info);
+                    personasFrag.add(info);
                 }
+                personas.addAll(personasFrag);
             }
         }
 
@@ -922,6 +1019,7 @@ public class Coordinador {
     }
     //ObtenerPersonasPorEstado
 
+    //TODO: Aplicar cambios que se hicieron al obtener todas las personas
     public List<InformacionPersona> obtenerPersonasByEstado(int idEstado) {
         List<InformacionPersona> personas = null;
         Nodo nodo2 = getNodo(Maquina.MAQUINA_2);
@@ -1025,7 +1123,7 @@ public class Coordinador {
         return personas;
     }
 
-    //ObtenerPersonasPorMunicipio
+    //TODO: Aplicar cambios que se hicieron al obtener todas las personas
     public List<InformacionPersona> obtenerPersonasByMunicipio(int idMunicipio) {
         List<InformacionPersona> personas = null;
         Nodo nodo2 = getNodo(Maquina.MAQUINA_2);
@@ -1129,7 +1227,7 @@ public class Coordinador {
         return personas;
     }
 
-    //ObtenerPersonasPorColonia
+    //TODO: Aplicar cambios que se hicieron al obtener todas las personas
     public List<InformacionPersona> obtenerPersonasByColonia(int idColonia) {
         List<InformacionPersona> personas = null;
         Nodo nodo2 = getNodo(Maquina.MAQUINA_2);
@@ -1297,7 +1395,7 @@ public class Coordinador {
         Nodo nodo2 = getNodo(Maquina.MAQUINA_2);
         Nodo nodo3 = getNodo(Maquina.MAQUINA_3);
         Nodo nodo4 = getNodo(Maquina.MAQUINA_4);
-        
+
         int maq2Id = 0, maq3Id = 0, maq4Id = 0;
         if (nodo2.getConexion() == null || REPLICA_MAQUINA2) {
             try {
@@ -1309,7 +1407,7 @@ public class Coordinador {
             }
         } else {
             try {
-                maq2Id = new PersonaCtrl(nodo2.getConexionReplica()).getLastId();
+                maq2Id = new PersonaCtrl(nodo2.getConexion()).getLastId();
             } catch (JDBCConnectionException ex) {
                 System.out.println("Se perdio la conexion a nodo primario");
                 updateEdoNodo(nodo2, "M2");
@@ -1327,7 +1425,7 @@ public class Coordinador {
             }
         } else {
             try {
-                maq3Id = new PersonaCtrl(nodo3.getConexionReplica()).getLastId();
+                maq3Id = new PersonaCtrl(nodo3.getConexion()).getLastId();
             } catch (JDBCConnectionException ex) {
                 System.out.println("Se perdio la conexion a nodo primario");
                 REPLICA_MAQUINA3 = true;
@@ -1345,16 +1443,16 @@ public class Coordinador {
             }
         } else {
             try {
-                maq4Id = new PersonaCtrl(nodo4.getConexionReplica()).getLastId();
+                maq4Id = new PersonaCtrl(nodo4.getConexion()).getLastId();
             } catch (JDBCConnectionException ex) {
                 System.out.println("Se perdio la conexion a nodo primario");
                 REPLICA_MAQUINA4 = true;
                 updateEdoNodo(nodo4, "M4");
                 maq4Id = new PersonaCtrl(nodo4.getConexionReplica()).getLastId();
             }
-        }        
-        
-        lastId = Math.max(maq2Id, Math.max(maq3Id, maq4Id));   
+        }
+
+        lastId = Math.max(maq2Id, Math.max(maq3Id, maq4Id));
         return lastId;
     }
 

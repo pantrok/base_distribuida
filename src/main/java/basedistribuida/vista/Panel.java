@@ -16,7 +16,6 @@ import javax.swing.ImageIcon;
  */
 public class Panel extends javax.swing.JFrame {
 
-    Personas personas = new Personas();
     File file = null;
     Image img = null;
 
@@ -119,6 +118,7 @@ public class Panel extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnpersonasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnpersonasActionPerformed
+        Personas personas = new Personas();
         personas.setVisible(true);
     }//GEN-LAST:event_btnpersonasActionPerformed
 
