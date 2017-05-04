@@ -8,13 +8,17 @@ package basedistribuida.process;
 import basedistribuida.connection.Connection;
 import basedistribuida.coordinator.Nodo;
 import basedistribuida.model.Colonia;
+import basedistribuida.model.Direccion;
 import basedistribuida.model.Estado;
 import basedistribuida.model.EstadoNodoReplica;
 import basedistribuida.model.Municipio;
+import basedistribuida.model.Persona;
 import basedistribuida.model.controller.ColoniaCtrl;
+import basedistribuida.model.controller.DireccionCtrl;
 import basedistribuida.model.controller.EstadoCtrl;
 import basedistribuida.model.controller.EstadoNodoReplicaCtrl;
 import basedistribuida.model.controller.MunicipioCtrl;
+import basedistribuida.model.controller.PersonaCtrl;
 import java.util.List;
 import org.hibernate.exception.JDBCConnectionException;
 
@@ -34,6 +38,7 @@ public class SincronizaMaq1Process extends Thread {
                 System.out.println("Replica de " + nodo.getMaquina() + " abajo");
             } else {
                 try {
+                    //Primero sincronizamos todo lo referente al nodo principal, lo de la replica se va al nodo primario
                     EstadoNodoReplica estadoNodoReplica = new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).findEstadoNodoReplicaById("M1");
                     if (estadoNodoReplica != null && estadoNodoReplica.getSincronizada() == 0) {
                         //La replica no esta actualizada, checamos si la particion primaria ya esta arriba
@@ -115,6 +120,31 @@ public class SincronizaMaq1Process extends Thread {
                                 }
                             }
 
+                            //Despues sincronizamos la replica que esta en la maquina, lo del nodo primario se va a esta maquina
+                            Nodo nodoReplica = new Nodo(Nodo.Maquina.MAQUINA_4);
+                            //Tenemos que checar personas y direcciones
+                            List<Persona> personas = new PersonaCtrl(nodoReplica.getConexion()).obtenerTodos();
+                            for (Persona p : personas) {
+                                Direccion d = new DireccionCtrl(nodoReplica.getConexion()).findDireccionByPersonaId(p.getId());
+                                Persona pNodoReplica = new PersonaCtrl(nodoReplica.getConexionReplica()).findPersonaById(p.getId());
+                                if (pNodoReplica == null) {
+                                    new PersonaCtrl(nodoReplica.getConexionReplica()).savePersona(p);
+                                    new DireccionCtrl(nodoReplica.getConexionReplica()).saveDireccion(d);
+                                } else if (!p.getChecksum().equals(pNodoReplica.getChecksum())) {
+                                    new PersonaCtrl(nodoReplica.getConexionReplica()).updatePersona(p);
+                                    new DireccionCtrl(nodoReplica.getConexionReplica()).updateDireccion(d);
+                                }
+                            }
+                            personas = new PersonaCtrl(nodoReplica.getConexionReplica()).obtenerTodos();
+                            for (Persona p : personas) {
+                                Direccion d = new DireccionCtrl(nodoReplica.getConexionReplica()).findDireccionByPersonaId(p.getId());
+                                Persona pNodoPrimario = new PersonaCtrl(nodoReplica.getConexion()).findPersonaById(p.getId());
+                                if (pNodoPrimario == null) {
+                                    new PersonaCtrl(nodoReplica.getConexionReplica()).deletePersona(p);
+                                    new DireccionCtrl(nodoReplica.getConexionReplica()).deleteDireccion(d);
+                                }
+                            }
+                            
                             estadoNodoReplica.setSincronizada(1);
                             new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).updateEstadoNodoReplica(estadoNodoReplica);
 
