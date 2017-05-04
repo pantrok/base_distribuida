@@ -12,9 +12,12 @@ import java.awt.Image;
 import java.io.File;
 import java.io.IOException;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
 import java.util.List;
 import javax.imageio.ImageIO;
+import javax.swing.DefaultComboBoxModel;
 import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 public class Personas extends javax.swing.JFrame {
@@ -24,11 +27,16 @@ public class Personas extends javax.swing.JFrame {
     private List<InformacionPersona> listaPersonas;
     private Coordinador coordinador;
     private ServidorLocal servidorLocal;
+private List<Estado> listaEstados;
+private List<Municipio> listaMunicipios;
+private List<Colonia> listaColonias;
+private Municipio municipio;
 
     public Personas() {
         initComponents();
         init();
         cargarPersonas();
+        cargarCombos();
         try {
             file = new File(System.getProperty("user.dir") + "/archivos/312408.png");
             img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
@@ -66,13 +74,16 @@ public class Personas extends javax.swing.JFrame {
         btnagregar = new javax.swing.JButton();
         botoneditar = new javax.swing.JButton();
         botoneliminar = new javax.swing.JButton();
-        btnsalir = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox<>();
         jLabel2 = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox<>();
         jLabel3 = new javax.swing.JLabel();
         jComboBox3 = new javax.swing.JComboBox<>();
+        btnsalir1 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
+        btnsalir = new javax.swing.JButton();
         paneltabla = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -149,17 +160,12 @@ public class Personas extends javax.swing.JFrame {
         });
         panelizquierdo.add(botoneliminar);
 
-        btnsalir.setText("Salir");
-        btnsalir.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnsalir.setMaximumSize(new java.awt.Dimension(150, 35));
-        btnsalir.setMinimumSize(new java.awt.Dimension(150, 35));
-        btnsalir.setPreferredSize(new java.awt.Dimension(150, 35));
-        btnsalir.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnsalirActionPerformed(evt);
-            }
-        });
-        panelizquierdo.add(btnsalir);
+        jPanel2.setBackground(java.awt.Color.white);
+        jPanel2.setAlignmentX(0.0F);
+        jPanel2.setMaximumSize(new java.awt.Dimension(150, 35));
+        jPanel2.setMinimumSize(new java.awt.Dimension(150, 35));
+        jPanel2.setPreferredSize(new java.awt.Dimension(150, 35));
+        panelizquierdo.add(jPanel2);
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Filtar por Estado");
@@ -169,10 +175,16 @@ public class Personas extends javax.swing.JFrame {
         panelizquierdo.add(jLabel1);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setSelectedIndex(-1);
         jComboBox1.setAlignmentX(0.0F);
         jComboBox1.setMaximumSize(new java.awt.Dimension(150, 35));
         jComboBox1.setMinimumSize(new java.awt.Dimension(150, 35));
         jComboBox1.setPreferredSize(new java.awt.Dimension(150, 35));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
         panelizquierdo.add(jComboBox1);
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -183,6 +195,7 @@ public class Personas extends javax.swing.JFrame {
         panelizquierdo.add(jLabel2);
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setSelectedIndex(-1);
         jComboBox2.setAlignmentX(0.0F);
         jComboBox2.setMaximumSize(new java.awt.Dimension(150, 35));
         jComboBox2.setMinimumSize(new java.awt.Dimension(150, 35));
@@ -197,11 +210,43 @@ public class Personas extends javax.swing.JFrame {
         panelizquierdo.add(jLabel3);
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox3.setSelectedIndex(-1);
         jComboBox3.setAlignmentX(0.0F);
         jComboBox3.setMaximumSize(new java.awt.Dimension(150, 35));
         jComboBox3.setMinimumSize(new java.awt.Dimension(150, 35));
         jComboBox3.setPreferredSize(new java.awt.Dimension(150, 35));
         panelizquierdo.add(jComboBox3);
+
+        btnsalir1.setText("Aplicar Filtro");
+        btnsalir1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnsalir1.setMaximumSize(new java.awt.Dimension(150, 35));
+        btnsalir1.setMinimumSize(new java.awt.Dimension(150, 35));
+        btnsalir1.setPreferredSize(new java.awt.Dimension(150, 35));
+        btnsalir1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnsalir1ActionPerformed(evt);
+            }
+        });
+        panelizquierdo.add(btnsalir1);
+
+        jPanel1.setBackground(java.awt.Color.white);
+        jPanel1.setAlignmentX(0.0F);
+        jPanel1.setMaximumSize(new java.awt.Dimension(150, 35));
+        jPanel1.setMinimumSize(new java.awt.Dimension(150, 35));
+        jPanel1.setPreferredSize(new java.awt.Dimension(150, 35));
+        panelizquierdo.add(jPanel1);
+
+        btnsalir.setText("Salir");
+        btnsalir.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnsalir.setMaximumSize(new java.awt.Dimension(150, 35));
+        btnsalir.setMinimumSize(new java.awt.Dimension(150, 35));
+        btnsalir.setPreferredSize(new java.awt.Dimension(150, 35));
+        btnsalir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnsalirActionPerformed(evt);
+            }
+        });
+        panelizquierdo.add(btnsalir);
 
         panelcontenido.add(panelizquierdo);
 
@@ -247,8 +292,24 @@ public class Personas extends javax.swing.JFrame {
         servidorLocal = new ServidorLocal("Personas", this);
         servidorLocal.start();
     }
+private void cargarCombos(){
+        coordinador = new Coordinador();
+        listaEstados = coordinador.obtenerEstados();
+        if (!listaEstados.isEmpty()) {
+            ArrayList<String> nombresEstados = new ArrayList<>();
+            for (Estado e : listaEstados) {
+                nombresEstados.add(e.getNombre());
+            }
+            jComboBox1.setModel(new DefaultComboBoxModel(nombresEstados.toArray()));
+             
 
-    public void cargarPersonas() {
+        } else {
+            dispose();
+            //Mensaje de actualizacion exitosa
+            //JOptionPane.showMessageDialog(this, "No se pueden editar municipios ya que no existen estados", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+}
+     public void cargarPersonas() {
         coordinador = new Coordinador();
         listaPersonas = coordinador.obtenerPersonas();
         //Actualizamos modelo jTable
@@ -315,6 +376,36 @@ public class Personas extends javax.swing.JFrame {
         servidorLocal.interrupt();
     }//GEN-LAST:event_formWindowClosing
 
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // int indice = this.jComboBox1.getSelectedIndex();
+        ArrayList<String> nombresEstados = new ArrayList<>();
+            ArrayList<String> nombresMunicipios = new ArrayList<>();
+            ArrayList<String> nombresColonias = new ArrayList<>();
+        System.out.println(jComboBox1.getSelectedItem());
+        for (Estado e : listaEstados) {
+            if (e.getNombre() == jComboBox1.getSelectedItem()) {
+                listaMunicipios = coordinador.obtenerMunicipiosByEstado(e.getId());
+            }
+
+        }
+        for (Municipio m : listaMunicipios) {
+            nombresMunicipios.add(m.getNombre());
+            listaColonias = coordinador.obtenerColoniasByMunicipio(m.getId());
+
+        }
+        jComboBox2.setModel(new DefaultComboBoxModel(nombresMunicipios.toArray()));
+
+                    for (Colonia c : listaColonias) {
+                nombresColonias.add(c.getNombre());
+    
+            }
+            jComboBox3.setModel(new DefaultComboBoxModel(nombresColonias.toArray()));
+    }//GEN-LAST:event_jComboBox1ActionPerformed
+
+    private void btnsalir1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsalir1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnsalir1ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botoneditar;
@@ -322,12 +413,15 @@ public class Personas extends javax.swing.JFrame {
     private javax.swing.JButton btnactualizar;
     private javax.swing.JButton btnagregar;
     private javax.swing.JButton btnsalir;
+    private javax.swing.JButton btnsalir1;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable jTable1;
     private javax.swing.JPanel panelcontenido;

@@ -6,11 +6,15 @@
 package basedistribuida.vista;
 
 import basedistribuida.beans.InformacionPersona;
+import basedistribuida.broadcast.BroadcastUtils;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Colonia;
+import basedistribuida.model.Direccion;
 import basedistribuida.model.Estado;
 import basedistribuida.model.Municipio;
 import basedistribuida.model.Persona;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.DefaultComboBoxModel;
@@ -28,6 +32,8 @@ private List<Estado> listaEstados;
 private List<Municipio> listaMunicipios;
 private List<Colonia> listaColonias;
 private Municipio municipio;
+private int id = 0;
+private int idDireccion = 0;
     /**
      * Creates new form Agregarpersona
      */
@@ -41,8 +47,7 @@ private Municipio municipio;
         //Cargar estados
         coordinador = new Coordinador();
         listaEstados = coordinador.obtenerEstados();
-        //listaMunicipios = coordinador.obtenerMunicipios();
-        
+         
         if (!listaEstados.isEmpty()) {
             ArrayList<String> nombresEstados = new ArrayList<>();
             ArrayList<String> nombresMunicipios = new ArrayList<>();
@@ -88,7 +93,15 @@ private Municipio municipio;
             jComboBox3.setModel(new DefaultComboBoxModel(nombresColonias.toArray()));
             jComboBox3.setSelectedIndex(indexASeleccionar);
             
+            id = persona.getPersona().getId();
+            idDireccion = persona.getDireccion().getId();
             tb_nombre.setText(persona.getPersona().getNombre());
+            tb_apaterno.setText(persona.getPersona().getApellidoPaterno());
+            tb_amaterno.setText(persona.getPersona().getApellidoMaterno());
+            tb_fecnac.setText(persona.getPersona().getFechaNacimiento()+"");
+            tb_genero.setText(persona.getPersona().getGenero()+"");
+            tb_calle.setText(persona.getDireccion().getCalle());
+             tb_cp.setText(persona.getDireccion().getCp()+"");
             //Seleccionar estado correcto en combo
            
             
@@ -282,6 +295,11 @@ private Municipio municipio;
         jComboBox1.setMaximumSize(new java.awt.Dimension(300, 30));
         jComboBox1.setMinimumSize(new java.awt.Dimension(300, 30));
         jComboBox1.setPreferredSize(new java.awt.Dimension(300, 30));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
         pnl_estado.add(jComboBox1);
 
         paneldatos.add(pnl_estado);
@@ -365,14 +383,75 @@ private Municipio municipio;
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_guardarActionPerformed
-        // TODO add your handling code here:
+              if (tb_nombre.getText().length() > 0) {
+            coordinador = new Coordinador();
+            Persona persona = new Persona();
+            Direccion direccion = new Direccion();
+            persona.setId(id);
+            persona.setNombre(tb_nombre.getText());
+            persona.setApellidoPaterno(tb_apaterno.getText());
+            persona.setApellidoMaterno(tb_amaterno.getText());
+            persona.setGenero(Persona.Genero.valueOf(tb_genero.getText()));
+            SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+            try {
+                persona.setFechaNacimiento(formatter.parse(tb_fecnac.getText()));
+            } catch (ParseException e) {
+            }
+            direccion.setId(idDireccion);
+            direccion.setCalle(tb_calle.getText());
+            direccion.setCp(Integer.parseInt(tb_cp.getText()));
+
+            Estado estado = listaEstados.get(jComboBox1.getSelectedIndex());
+            direccion.setIdEstado(estado.getId());
+            Municipio municipio = listaMunicipios.get(jComboBox2.getSelectedIndex());
+            direccion.setIdMunicipio(municipio.getId());
+            Colonia colonia = listaColonias.get(jComboBox3.getSelectedIndex());
+            direccion.setIdColonia(colonia.getId());
+            
+             
+            coordinador.editarPersona(persona, direccion, estado);
+             
+            BroadcastUtils.mensajeAServidorRemoto("Operacion");
+            
+            personasFrame.cargarPersonas();
+            dispose();
+            //Mensaje de actualizacion exitosa
+            JOptionPane.showMessageDialog(this, "Persona editada correctamente", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
+        } else {
+            //Mandar mensaje de que se necesitan datos
+            JOptionPane.showMessageDialog(this, "Todos los datos son necesarios", "Error", JOptionPane.ERROR_MESSAGE);
+        }
         
     }//GEN-LAST:event_btn_guardarActionPerformed
 
     private void btn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_cancelarActionPerformed
-        // TODO add your handling code here:
-
+dispose();
     }//GEN-LAST:event_btn_cancelarActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+         ArrayList<String> nombresEstados = new ArrayList<>();
+            ArrayList<String> nombresMunicipios = new ArrayList<>();
+            ArrayList<String> nombresColonias = new ArrayList<>();
+        System.out.println(jComboBox1.getSelectedItem());
+        for (Estado e : listaEstados) {
+            if (e.getNombre() == jComboBox1.getSelectedItem()) {
+                listaMunicipios = coordinador.obtenerMunicipiosByEstado(e.getId());
+            }
+
+        }
+        for (Municipio m : listaMunicipios) {
+            nombresMunicipios.add(m.getNombre());
+            listaColonias = coordinador.obtenerColoniasByMunicipio(m.getId());
+
+        }
+        jComboBox2.setModel(new DefaultComboBoxModel(nombresMunicipios.toArray()));
+
+                    for (Colonia c : listaColonias) {
+                nombresColonias.add(c.getNombre());
+    
+            }
+            jComboBox3.setModel(new DefaultComboBoxModel(nombresColonias.toArray()));
+    }//GEN-LAST:event_jComboBox1ActionPerformed
 
     /**
      * @param args the command line arguments

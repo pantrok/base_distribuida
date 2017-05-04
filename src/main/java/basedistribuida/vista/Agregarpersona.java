@@ -7,8 +7,10 @@ package basedistribuida.vista;
 
 import basedistribuida.broadcast.BroadcastUtils;
 import basedistribuida.coordinator.Coordinador;
+import basedistribuida.model.Colonia;
 import basedistribuida.model.Direccion;
 import basedistribuida.model.Estado;
+import basedistribuida.model.Municipio;
 import basedistribuida.model.Persona;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -24,10 +26,11 @@ import javax.swing.JOptionPane;
 public class Agregarpersona extends javax.swing.JFrame {
 
     private Personas personasFrame;
-
+private List<Estado> listaEstados;
+private List<Municipio> listaMunicipios;
+private List<Colonia> listaColonias;
     private Coordinador coordinador;
-    private List<Estado> listaEstados;
-
+ 
     /**
      * Creates new form Agregarpersona
      */
@@ -93,9 +96,11 @@ public class Agregarpersona extends javax.swing.JFrame {
         jComboBox1 = new javax.swing.JComboBox<>();
         pnl_municipio = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
+        jComboBox2 = new javax.swing.JComboBox<>();
         tb_municipio = new javax.swing.JTextField();
         pnl_colonia = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
+        jComboBox3 = new javax.swing.JComboBox<>();
         tb_colonia = new javax.swing.JTextField();
         panelfooter = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
@@ -240,6 +245,11 @@ public class Agregarpersona extends javax.swing.JFrame {
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jComboBox1.setMaximumSize(new java.awt.Dimension(300, 30));
         jComboBox1.setMinimumSize(new java.awt.Dimension(300, 30));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
         pnl_estado.add(jComboBox1);
 
         paneldatos.add(pnl_estado);
@@ -253,9 +263,15 @@ public class Agregarpersona extends javax.swing.JFrame {
         jLabel10.setPreferredSize(new java.awt.Dimension(200, 20));
         pnl_municipio.add(jLabel10);
 
-        tb_municipio.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_municipio.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_municipio.setPreferredSize(new java.awt.Dimension(300, 30));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setMaximumSize(new java.awt.Dimension(150, 30));
+        jComboBox2.setMinimumSize(new java.awt.Dimension(150, 30));
+        jComboBox2.setPreferredSize(new java.awt.Dimension(150, 30));
+        pnl_municipio.add(jComboBox2);
+
+        tb_municipio.setMaximumSize(new java.awt.Dimension(150, 30));
+        tb_municipio.setMinimumSize(new java.awt.Dimension(150, 30));
+        tb_municipio.setPreferredSize(new java.awt.Dimension(150, 30));
         pnl_municipio.add(tb_municipio);
 
         paneldatos.add(pnl_municipio);
@@ -269,9 +285,15 @@ public class Agregarpersona extends javax.swing.JFrame {
         jLabel9.setPreferredSize(new java.awt.Dimension(200, 20));
         pnl_colonia.add(jLabel9);
 
-        tb_colonia.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_colonia.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_colonia.setPreferredSize(new java.awt.Dimension(300, 30));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox3.setMaximumSize(new java.awt.Dimension(150, 30));
+        jComboBox3.setMinimumSize(new java.awt.Dimension(150, 30));
+        jComboBox3.setPreferredSize(new java.awt.Dimension(150, 30));
+        pnl_colonia.add(jComboBox3);
+
+        tb_colonia.setMaximumSize(new java.awt.Dimension(150, 30));
+        tb_colonia.setMinimumSize(new java.awt.Dimension(150, 30));
+        tb_colonia.setPreferredSize(new java.awt.Dimension(150, 30));
         pnl_colonia.add(tb_colonia);
 
         paneldatos.add(pnl_colonia);
@@ -289,7 +311,7 @@ public class Agregarpersona extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 868, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -307,6 +329,11 @@ public class Agregarpersona extends javax.swing.JFrame {
         panelfooter.add(btn_guardar);
 
         btn_cancelar.setText("Cancelar");
+        btn_cancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_cancelarActionPerformed(evt);
+            }
+        });
         panelfooter.add(btn_cancelar);
 
         getContentPane().add(panelfooter);
@@ -333,8 +360,15 @@ public class Agregarpersona extends javax.swing.JFrame {
 
             Estado estado = listaEstados.get(jComboBox1.getSelectedIndex());
             direccion.setIdEstado(estado.getId());
-            direccion.setIdMunicipio(Integer.parseInt(tb_municipio.getText()));
-            direccion.setIdColonia(Integer.parseInt(tb_colonia.getText()));
+            
+            //direccion.setIdMunicipio(Integer.parseInt(tb_municipio.getText()));
+            //direccion.setIdColonia(Integer.parseInt(tb_colonia.getText()));
+           
+            Municipio municipio = listaMunicipios.get(jComboBox2.getSelectedIndex());
+            direccion.setIdMunicipio(municipio.getId());
+            Colonia colonia = listaColonias.get(jComboBox3.getSelectedIndex());
+            direccion.setIdColonia(colonia.getId());
+
             
             coordinador.insertarPersona(persona, direccion, estado);
             
@@ -343,12 +377,42 @@ public class Agregarpersona extends javax.swing.JFrame {
             personasFrame.cargarPersonas();
             dispose();
             //Mensaje de actualizacion exitosa
-            JOptionPane.showMessageDialog(this, "Colonia insertada correctamente", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Persona agregada correctamente", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
         } else {
             //Mandar mensaje de que se necesitan datos
             JOptionPane.showMessageDialog(this, "Todos los datos son necesarios", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_btn_guardarActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+          ArrayList<String> nombresEstados = new ArrayList<>();
+            ArrayList<String> nombresMunicipios = new ArrayList<>();
+            ArrayList<String> nombresColonias = new ArrayList<>();
+        System.out.println(jComboBox1.getSelectedItem());
+        for (Estado e : listaEstados) {
+            if (e.getNombre() == jComboBox1.getSelectedItem()) {
+                listaMunicipios = coordinador.obtenerMunicipiosByEstado(e.getId());
+            }
+
+        }
+        for (Municipio m : listaMunicipios) {
+            nombresMunicipios.add(m.getNombre());
+            listaColonias = coordinador.obtenerColoniasByMunicipio(m.getId());
+            
+
+        }
+        jComboBox2.setModel(new DefaultComboBoxModel(nombresMunicipios.toArray()));
+
+                    for (Colonia c : listaColonias) {
+                nombresColonias.add(c.getNombre());
+    
+            }
+            jComboBox3.setModel(new DefaultComboBoxModel(nombresColonias.toArray()));
+    }//GEN-LAST:event_jComboBox1ActionPerformed
+
+    private void btn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_cancelarActionPerformed
+dispose();
+    }//GEN-LAST:event_btn_cancelarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -358,6 +422,8 @@ public class Agregarpersona extends javax.swing.JFrame {
     private javax.swing.JButton btn_cancelar;
     private javax.swing.JButton btn_guardar;
     private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
