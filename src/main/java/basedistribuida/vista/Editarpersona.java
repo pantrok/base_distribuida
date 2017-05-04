@@ -5,19 +5,100 @@
  */
 package basedistribuida.vista;
 
+import basedistribuida.beans.InformacionPersona;
+import basedistribuida.coordinator.Coordinador;
+import basedistribuida.model.Colonia;
+import basedistribuida.model.Estado;
+import basedistribuida.model.Municipio;
+import basedistribuida.model.Persona;
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author iovanny
  */
 public class Editarpersona extends javax.swing.JFrame {
-
+private Personas personasFrame;
+private InformacionPersona persona;
+private Coordinador coordinador;
+private List<Estado> listaEstados;
+private List<Municipio> listaMunicipios;
+private List<Colonia> listaColonias;
+private Municipio municipio;
     /**
      * Creates new form Agregarpersona
      */
-    public Editarpersona() {
+    public Editarpersona(InformacionPersona persona, Personas personasFrame) {
+       this.persona=persona;
+       this.personasFrame=personasFrame;
         initComponents();
+        init();
     }
+  private void init() {
+        //Cargar estados
+        coordinador = new Coordinador();
+        listaEstados = coordinador.obtenerEstados();
+        //listaMunicipios = coordinador.obtenerMunicipios();
+        
+        if (!listaEstados.isEmpty()) {
+            ArrayList<String> nombresEstados = new ArrayList<>();
+            ArrayList<String> nombresMunicipios = new ArrayList<>();
+            ArrayList<String> nombresColonias = new ArrayList<>();
+            int indexASeleccionar = -1;
+            int i = 0;
+            for (Estado e : listaEstados) {
+                nombresEstados.add(e.getNombre());
+                if (e.getId() == persona.getDireccion().getIdEstado()) {
+                    indexASeleccionar =  i;
+                    listaMunicipios = coordinador.obtenerMunicipiosByEstado(e.getId());
+                    System.out.println(listaMunicipios);
+                }
+                i++;
+            }
+            jComboBox1.setModel(new DefaultComboBoxModel(nombresEstados.toArray()));
+            jComboBox1.setSelectedIndex(indexASeleccionar);
+            i=0;
+            indexASeleccionar = -1;
+            
+            for (Municipio e : listaMunicipios) {
+                nombresMunicipios.add(e.getNombre());
+                if (e.getId() == persona.getDireccion().getIdMunicipio()) {
+                    indexASeleccionar =  i;
+                    listaColonias = coordinador.obtenerColoniasByMunicipio(e.getId());
+                                        System.out.println(listaColonias);
 
+                }
+                i++;
+            }
+            jComboBox2.setModel(new DefaultComboBoxModel(nombresMunicipios.toArray()));
+             jComboBox2.setSelectedIndex(indexASeleccionar);
+           
+            i=0;
+            indexASeleccionar = 0;
+            for (Colonia e : listaColonias) {
+                nombresColonias.add(e.getNombre());
+                if (e.getId() == persona.getDireccion().getIdColonia()) {
+                    indexASeleccionar =  i;
+                }
+                i++;
+            }
+            jComboBox3.setModel(new DefaultComboBoxModel(nombresColonias.toArray()));
+            jComboBox3.setSelectedIndex(indexASeleccionar);
+            
+            tb_nombre.setText(persona.getPersona().getNombre());
+            //Seleccionar estado correcto en combo
+           
+            
+        } else {
+            dispose();
+            //Mensaje de actualizacion exitosa
+            JOptionPane.showMessageDialog(this, "No se pueden editar municipios ya que no existen estados", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -29,9 +110,6 @@ public class Editarpersona extends javax.swing.JFrame {
 
         panelcontenido = new javax.swing.JPanel();
         panelpersona = new javax.swing.JPanel();
-        pnl_id = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        tb_id = new javax.swing.JTextField();
         pnl_nombre = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         tb_nombre = new javax.swing.JTextField();
@@ -54,18 +132,15 @@ public class Editarpersona extends javax.swing.JFrame {
         pnl_cp = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         tb_cp = new javax.swing.JTextField();
-        pnl_colonia = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
-        tb_colonia = new javax.swing.JTextField();
-        pnl_municipio = new javax.swing.JPanel();
-        jLabel10 = new javax.swing.JLabel();
-        tb_municipio = new javax.swing.JTextField();
         pnl_estado = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
-        tb_estado = new javax.swing.JTextField();
-        pnl_zona = new javax.swing.JPanel();
-        jLabel12 = new javax.swing.JLabel();
-        tb_zona = new javax.swing.JTextField();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        pnl_municipio = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        pnl_colonia = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
+        jComboBox3 = new javax.swing.JComboBox<>();
         panelfooter = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         btn_guardar = new javax.swing.JButton();
@@ -77,23 +152,6 @@ public class Editarpersona extends javax.swing.JFrame {
         panelcontenido.setLayout(new javax.swing.BoxLayout(panelcontenido, javax.swing.BoxLayout.LINE_AXIS));
 
         panelpersona.setLayout(new javax.swing.BoxLayout(panelpersona, javax.swing.BoxLayout.PAGE_AXIS));
-
-        pnl_id.setLayout(new javax.swing.BoxLayout(pnl_id, javax.swing.BoxLayout.LINE_AXIS));
-
-        jLabel1.setText("id");
-        jLabel1.setMaximumSize(new java.awt.Dimension(200, 20));
-        jLabel1.setMinimumSize(new java.awt.Dimension(200, 20));
-        jLabel1.setName(""); // NOI18N
-        jLabel1.setPreferredSize(new java.awt.Dimension(200, 20));
-        pnl_id.add(jLabel1);
-
-        tb_id.setText(" ");
-        tb_id.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_id.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_id.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_id.add(tb_id);
-
-        panelpersona.add(pnl_id);
 
         pnl_nombre.setLayout(new javax.swing.BoxLayout(pnl_nombre, javax.swing.BoxLayout.LINE_AXIS));
 
@@ -211,21 +269,22 @@ public class Editarpersona extends javax.swing.JFrame {
 
         paneldatos.add(pnl_cp);
 
-        pnl_colonia.setLayout(new javax.swing.BoxLayout(pnl_colonia, javax.swing.BoxLayout.LINE_AXIS));
+        pnl_estado.setLayout(new javax.swing.BoxLayout(pnl_estado, javax.swing.BoxLayout.LINE_AXIS));
 
-        jLabel9.setText("Colonia");
-        jLabel9.setMaximumSize(new java.awt.Dimension(200, 20));
-        jLabel9.setMinimumSize(new java.awt.Dimension(200, 20));
-        jLabel9.setName(""); // NOI18N
-        jLabel9.setPreferredSize(new java.awt.Dimension(200, 20));
-        pnl_colonia.add(jLabel9);
+        jLabel11.setText("Estado");
+        jLabel11.setMaximumSize(new java.awt.Dimension(200, 20));
+        jLabel11.setMinimumSize(new java.awt.Dimension(200, 20));
+        jLabel11.setName(""); // NOI18N
+        jLabel11.setPreferredSize(new java.awt.Dimension(200, 20));
+        pnl_estado.add(jLabel11);
 
-        tb_colonia.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_colonia.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_colonia.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_colonia.add(tb_colonia);
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setMaximumSize(new java.awt.Dimension(300, 30));
+        jComboBox1.setMinimumSize(new java.awt.Dimension(300, 30));
+        jComboBox1.setPreferredSize(new java.awt.Dimension(300, 30));
+        pnl_estado.add(jComboBox1);
 
-        paneldatos.add(pnl_colonia);
+        paneldatos.add(pnl_estado);
 
         pnl_municipio.setLayout(new javax.swing.BoxLayout(pnl_municipio, javax.swing.BoxLayout.LINE_AXIS));
 
@@ -236,44 +295,31 @@ public class Editarpersona extends javax.swing.JFrame {
         jLabel10.setPreferredSize(new java.awt.Dimension(200, 20));
         pnl_municipio.add(jLabel10);
 
-        tb_municipio.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_municipio.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_municipio.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_municipio.add(tb_municipio);
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setMaximumSize(new java.awt.Dimension(300, 30));
+        jComboBox2.setMinimumSize(new java.awt.Dimension(300, 30));
+        jComboBox2.setName(""); // NOI18N
+        jComboBox2.setPreferredSize(new java.awt.Dimension(300, 30));
+        pnl_municipio.add(jComboBox2);
 
         paneldatos.add(pnl_municipio);
 
-        pnl_estado.setLayout(new javax.swing.BoxLayout(pnl_estado, javax.swing.BoxLayout.LINE_AXIS));
+        pnl_colonia.setLayout(new javax.swing.BoxLayout(pnl_colonia, javax.swing.BoxLayout.LINE_AXIS));
 
-        jLabel11.setText("Estado");
-        jLabel11.setMaximumSize(new java.awt.Dimension(200, 20));
-        jLabel11.setMinimumSize(new java.awt.Dimension(200, 20));
-        jLabel11.setName(""); // NOI18N
-        jLabel11.setPreferredSize(new java.awt.Dimension(200, 20));
-        pnl_estado.add(jLabel11);
+        jLabel9.setText("Colonia");
+        jLabel9.setMaximumSize(new java.awt.Dimension(200, 20));
+        jLabel9.setMinimumSize(new java.awt.Dimension(200, 20));
+        jLabel9.setName(""); // NOI18N
+        jLabel9.setPreferredSize(new java.awt.Dimension(200, 20));
+        pnl_colonia.add(jLabel9);
 
-        tb_estado.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_estado.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_estado.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_estado.add(tb_estado);
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox3.setMaximumSize(new java.awt.Dimension(300, 30));
+        jComboBox3.setMinimumSize(new java.awt.Dimension(300, 30));
+        jComboBox3.setPreferredSize(new java.awt.Dimension(300, 30));
+        pnl_colonia.add(jComboBox3);
 
-        paneldatos.add(pnl_estado);
-
-        pnl_zona.setLayout(new javax.swing.BoxLayout(pnl_zona, javax.swing.BoxLayout.LINE_AXIS));
-
-        jLabel12.setText("Zona");
-        jLabel12.setMaximumSize(new java.awt.Dimension(200, 20));
-        jLabel12.setMinimumSize(new java.awt.Dimension(200, 20));
-        jLabel12.setName(""); // NOI18N
-        jLabel12.setPreferredSize(new java.awt.Dimension(200, 20));
-        pnl_zona.add(jLabel12);
-
-        tb_zona.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_zona.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_zona.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_zona.add(tb_zona);
-
-        paneldatos.add(pnl_zona);
+        paneldatos.add(pnl_colonia);
 
         panelcontenido.add(paneldatos);
 
@@ -288,19 +334,29 @@ public class Editarpersona extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 862, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 35, Short.MAX_VALUE)
         );
 
         panelfooter.add(jPanel1);
 
         btn_guardar.setText("Guardar");
+        btn_guardar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_guardarActionPerformed(evt);
+            }
+        });
         panelfooter.add(btn_guardar);
 
         btn_cancelar.setText("Cancelar");
+        btn_cancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_cancelarActionPerformed(evt);
+            }
+        });
         panelfooter.add(btn_cancelar);
 
         getContentPane().add(panelfooter);
@@ -308,63 +364,28 @@ public class Editarpersona extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btn_guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_guardarActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_btn_guardarActionPerformed
+
+    private void btn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_cancelarActionPerformed
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_btn_cancelarActionPerformed
+
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Editarpersona.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Editarpersona.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Editarpersona.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Editarpersona.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Editarpersona().setVisible(true);
-            }
-        });
-    }
-
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_cancelar;
     private javax.swing.JButton btn_guardar;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -386,21 +407,14 @@ public class Editarpersona extends javax.swing.JFrame {
     private javax.swing.JPanel pnl_estado;
     private javax.swing.JPanel pnl_fecnac;
     private javax.swing.JPanel pnl_genero;
-    private javax.swing.JPanel pnl_id;
     private javax.swing.JPanel pnl_municipio;
     private javax.swing.JPanel pnl_nombre;
-    private javax.swing.JPanel pnl_zona;
     private javax.swing.JTextField tb_amaterno;
     private javax.swing.JTextField tb_apaterno;
     private javax.swing.JTextField tb_calle;
-    private javax.swing.JTextField tb_colonia;
     private javax.swing.JTextField tb_cp;
-    private javax.swing.JTextField tb_estado;
     private javax.swing.JTextField tb_fecnac;
     private javax.swing.JTextField tb_genero;
-    private javax.swing.JTextField tb_id;
-    private javax.swing.JTextField tb_municipio;
     private javax.swing.JTextField tb_nombre;
-    private javax.swing.JTextField tb_zona;
     // End of variables declaration//GEN-END:variables
 }

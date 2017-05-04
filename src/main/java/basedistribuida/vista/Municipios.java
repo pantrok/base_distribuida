@@ -32,10 +32,10 @@ public class Municipios extends javax.swing.JFrame {
             botoneliminar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/buscar.png");
             img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
-            botonbuscar.setIcon(new ImageIcon(img));
+            //botonbuscar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/actualizar.png");
             img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
-            btnactualizar.setIcon(new ImageIcon(img));
+            //btnactualizar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/salir.png");
             img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             btnsalir.setIcon(new ImageIcon(img));
@@ -50,8 +50,6 @@ public class Municipios extends javax.swing.JFrame {
 
         panelcontenido = new javax.swing.JPanel();
         panelizquierdo = new javax.swing.JPanel();
-        btnactualizar = new javax.swing.JButton();
-        botonbuscar = new javax.swing.JButton();
         btnagregar = new javax.swing.JButton();
         botoneditar = new javax.swing.JButton();
         botoneliminar = new javax.swing.JButton();
@@ -77,30 +75,6 @@ public class Municipios extends javax.swing.JFrame {
         panelizquierdo.setMinimumSize(new java.awt.Dimension(150, 600));
         panelizquierdo.setPreferredSize(new java.awt.Dimension(150, 600));
         panelizquierdo.setLayout(new javax.swing.BoxLayout(panelizquierdo, javax.swing.BoxLayout.PAGE_AXIS));
-
-        btnactualizar.setText("Actualizar");
-        btnactualizar.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnactualizar.setMaximumSize(new java.awt.Dimension(150, 35));
-        btnactualizar.setMinimumSize(new java.awt.Dimension(150, 35));
-        btnactualizar.setPreferredSize(new java.awt.Dimension(150, 35));
-        btnactualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnactualizarActionPerformed(evt);
-            }
-        });
-        panelizquierdo.add(btnactualizar);
-
-        /*botonbuscar.setText("Buscar");
-        botonbuscar.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        botonbuscar.setMaximumSize(new java.awt.Dimension(150, 35));
-        botonbuscar.setMinimumSize(new java.awt.Dimension(150, 35));
-        botonbuscar.setPreferredSize(new java.awt.Dimension(150, 35));
-        botonbuscar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonbuscarActionPerformed(evt);
-            }
-        });
-        panelizquierdo.add(botonbuscar);*/
 
         btnagregar.setText("Agregar");
         btnagregar.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -164,10 +138,15 @@ public class Municipios extends javax.swing.JFrame {
         jScrollPane2.setPreferredSize(new java.awt.Dimension(550, 600));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
-                new Object[][]{},
-                new String[]{
-                    "Id","Nombre", "Estado"
-                }
+            new Object [][] {
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null}
+            },
+            new String [] {
+                "id", "Nombre"
+            }
         ));
         jTable1.setMaximumSize(new java.awt.Dimension(850, 600));
         jTable1.setMinimumSize(new java.awt.Dimension(850, 600));
@@ -230,14 +209,6 @@ public class Municipios extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_botoneliminarActionPerformed
 
-    private void botonbuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
-        
-    }//GEN-LAST:event_botonbuscarActionPerformed
-
-    private void btnactualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactualizarActionPerformed
-        
-    }//GEN-LAST:event_btnactualizarActionPerformed
-
     private void btnsalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsalirActionPerformed
         this.setVisible(false);        // TODO add your handling code here:
     }//GEN-LAST:event_btnsalirActionPerformed
@@ -249,10 +220,8 @@ public class Municipios extends javax.swing.JFrame {
 
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton botonbuscar;
     private javax.swing.JButton botoneditar;
     private javax.swing.JButton botoneliminar;
-    private javax.swing.JButton btnactualizar;
     private javax.swing.JButton btnagregar;
     private javax.swing.JButton btnsalir;
     private javax.swing.JScrollPane jScrollPane2;
