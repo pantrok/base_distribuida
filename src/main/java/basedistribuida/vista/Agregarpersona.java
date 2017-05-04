@@ -11,6 +11,9 @@ import basedistribuida.model.Estado;
 import basedistribuida.model.Persona;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
 
 /**
@@ -18,15 +21,36 @@ import javax.swing.JOptionPane;
  * @author iovanny
  */
 public class Agregarpersona extends javax.swing.JFrame {
-private Personas personasFrame;
+
+    private Personas personasFrame;
 
     private Coordinador coordinador;
+    private List<Estado> listaEstados;
+
     /**
      * Creates new form Agregarpersona
      */
     public Agregarpersona(Personas personasFrame) {
         this.personasFrame = personasFrame;
         initComponents();
+        init();
+    }
+
+    private void init() {
+        coordinador = new Coordinador();
+        listaEstados = coordinador.obtenerEstados();
+        if (!listaEstados.isEmpty()) {
+            ArrayList<String> nombresEstados = new ArrayList<>();
+            for (Estado e : listaEstados) {
+                nombresEstados.add(e.getNombre());
+            }
+            jComboBox1.setModel(new DefaultComboBoxModel(nombresEstados.toArray()));
+
+        } else {
+            dispose();
+            //Mensaje de actualizacion exitosa
+            JOptionPane.showMessageDialog(this, "No se pueden editar municipios ya que no existen estados", "Error", JOptionPane.ERROR_MESSAGE);
+        }
     }
 
     /**
@@ -41,8 +65,6 @@ private Personas personasFrame;
         panelcontenido = new javax.swing.JPanel();
         panelpersona = new javax.swing.JPanel();
         pnl_id = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        tb_id = new javax.swing.JTextField();
         pnl_nombre = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         tb_nombre = new javax.swing.JTextField();
@@ -67,7 +89,7 @@ private Personas personasFrame;
         tb_cp = new javax.swing.JTextField();
         pnl_estado = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
-        tb_estado = new javax.swing.JTextField();
+        jComboBox1 = new javax.swing.JComboBox<>();
         pnl_municipio = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         tb_municipio = new javax.swing.JTextField();
@@ -87,20 +109,6 @@ private Personas personasFrame;
         panelpersona.setLayout(new javax.swing.BoxLayout(panelpersona, javax.swing.BoxLayout.PAGE_AXIS));
 
         pnl_id.setLayout(new javax.swing.BoxLayout(pnl_id, javax.swing.BoxLayout.LINE_AXIS));
-
-        jLabel1.setText("id");
-        jLabel1.setMaximumSize(new java.awt.Dimension(200, 20));
-        jLabel1.setMinimumSize(new java.awt.Dimension(200, 20));
-        jLabel1.setName(""); // NOI18N
-        jLabel1.setPreferredSize(new java.awt.Dimension(200, 20));
-        pnl_id.add(jLabel1);
-
-        tb_id.setText(" ");
-        tb_id.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_id.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_id.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_id.add(tb_id);
-
         panelpersona.add(pnl_id);
 
         pnl_nombre.setLayout(new javax.swing.BoxLayout(pnl_nombre, javax.swing.BoxLayout.LINE_AXIS));
@@ -228,10 +236,10 @@ private Personas personasFrame;
         jLabel11.setPreferredSize(new java.awt.Dimension(200, 20));
         pnl_estado.add(jLabel11);
 
-        tb_estado.setMaximumSize(new java.awt.Dimension(300, 30));
-        tb_estado.setMinimumSize(new java.awt.Dimension(300, 30));
-        tb_estado.setPreferredSize(new java.awt.Dimension(300, 30));
-        pnl_estado.add(tb_estado);
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setMaximumSize(new java.awt.Dimension(300, 30));
+        jComboBox1.setMinimumSize(new java.awt.Dimension(300, 30));
+        pnl_estado.add(jComboBox1);
 
         paneldatos.add(pnl_estado);
 
@@ -306,7 +314,7 @@ private Personas personasFrame;
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_guardarActionPerformed
-          if (tb_nombre.getText().length() > 0) {
+        if (tb_nombre.getText().length() > 0) {
             coordinador = new Coordinador();
             Persona persona = new Persona();
             Direccion direccion = new Direccion();
@@ -315,19 +323,18 @@ private Personas personasFrame;
             persona.setApellidoMaterno(tb_amaterno.getText());
             persona.setGenero(Persona.Genero.valueOf(tb_genero.getText()));
             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-            try{
-            persona.setFechaNacimiento(formatter.parse(tb_fecnac.getText()));
-              }catch(ParseException e){}            
+            try {
+                persona.setFechaNacimiento(formatter.parse(tb_fecnac.getText()));
+            } catch (ParseException e) {
+            }
             direccion.setCalle(tb_calle.getText());
             direccion.setCp(Integer.parseInt(tb_cp.getText()));
-           
-            int idestado = Integer.parseInt(tb_estado.getText());
-            direccion.setIdEstado(idestado);
 
+            Estado estado = listaEstados.get(jComboBox1.getSelectedIndex());
+            direccion.setIdEstado(estado.getId());
             direccion.setIdMunicipio(Integer.parseInt(tb_municipio.getText()));
             direccion.setIdColonia(Integer.parseInt(tb_colonia.getText()));
-            Estado estado = coordinador.obtenerEstadoById(idestado);
-            //Municipio municipio = listaMunicipios.get(jComboBox1.getSelectedIndex());
+            
             coordinador.insertarPersona(persona, direccion, estado);
             personasFrame.cargarPersonas();
             dispose();
@@ -342,11 +349,11 @@ private Personas personasFrame;
     /**
      * @param args the command line arguments
      */
-  
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_cancelar;
     private javax.swing.JButton btn_guardar;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
@@ -378,10 +385,8 @@ private Personas personasFrame;
     private javax.swing.JTextField tb_calle;
     private javax.swing.JTextField tb_colonia;
     private javax.swing.JTextField tb_cp;
-    private javax.swing.JTextField tb_estado;
     private javax.swing.JTextField tb_fecnac;
     private javax.swing.JTextField tb_genero;
-    private javax.swing.JTextField tb_id;
     private javax.swing.JTextField tb_municipio;
     private javax.swing.JTextField tb_nombre;
     // End of variables declaration//GEN-END:variables
