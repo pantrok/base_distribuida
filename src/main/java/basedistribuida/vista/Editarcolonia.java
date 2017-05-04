@@ -5,6 +5,7 @@
  */
 package basedistribuida.vista;
 
+import basedistribuida.broadcast.BroadcastUtils;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Colonia;
 import basedistribuida.model.Municipio;
@@ -18,10 +19,12 @@ import javax.swing.JOptionPane;
  * @author iovanny
  */
 public class Editarcolonia extends javax.swing.JFrame {
-private Colonias coloniasFrame;
+
+    private Colonias coloniasFrame;
     private Coordinador coordinador;
     private Colonia colonia;
     private List<Municipio> listaMunicipios;
+
     /**
      * Creates new form Agregarpersona
      */
@@ -31,7 +34,8 @@ private Colonias coloniasFrame;
         initComponents();
         init();
     }
-       private void init() {
+
+    private void init() {
         //Llenar combo con los estados, si no hay estado decir que no se pueden agregar municipios
         coordinador = new Coordinador();
         listaMunicipios = coordinador.obtenerMunicipios();
@@ -49,6 +53,7 @@ private Colonias coloniasFrame;
             JOptionPane.showMessageDialog(this, "No se pueden agregar municipios ya que no existen estados", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -176,12 +181,13 @@ private Colonias coloniasFrame;
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_guardarActionPerformed
-               if (tb_nombre.getText().length() > 0) {
+        if (tb_nombre.getText().length() > 0) {
             coordinador = new Coordinador();
             colonia.setNombre(tb_nombre.getText());
             Municipio municipio = listaMunicipios.get(jComboBox1.getSelectedIndex());
             colonia.setIdMunicipio(municipio.getId()); //Obtener estado seleccionado del combo
             coordinador.updateColonia(colonia);
+            BroadcastUtils.mensajeAServidorRemoto("Operacion");
             coloniasFrame.cargarColonias();
             dispose();
             //Mensaje de actualizacion exitosa
@@ -193,7 +199,7 @@ private Colonias coloniasFrame;
     }//GEN-LAST:event_btn_guardarActionPerformed
 
     private void btn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_cancelarActionPerformed
-dispose();        // TODO add your handling code here:
+        dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_btn_cancelarActionPerformed
 
     /**

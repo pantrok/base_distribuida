@@ -1,55 +1,55 @@
-
 package basedistribuida.vista;
 
+import basedistribuida.broadcast.BroadcastUtils;
+import basedistribuida.broadcast.ServidorLocal;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Colonia;
 import basedistribuida.model.Municipio;
 import java.awt.Image;
 import java.io.File;
+import java.io.IOException;
+import java.net.UnknownHostException;
 import java.util.List;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
 
-
- 
-
 public class Colonias extends javax.swing.JFrame {
- 
- 
-File file = null;
-Image img = null;
-private List<Colonia> listaColonias;
-private Coordinador coordinador;
+
+    private File file = null;
+    private Image img = null;
+    private List<Colonia> listaColonias;
+    private Coordinador coordinador;
+    private ServidorLocal servidorLocal;
 
     public Colonias() {
         initComponents();
+        init();
         cargarColonias();
- 
 
         try {
             file = new File(System.getProperty("user.dir") + "/archivos/agregar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
-            btnagregar.setIcon(new ImageIcon(img));            
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
+            btnagregar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/editar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             botoneditar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/eliminar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             botoneliminar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/buscar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             //botonbuscar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/actualizar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             //btnactualizar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/salir.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
-            btnsalir.setIcon(new ImageIcon(img));            
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
+            btnsalir.setIcon(new ImageIcon(img));
         } catch (Exception ex) {
             System.out.println(ex);
         }
-      }
+    }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -69,6 +69,11 @@ private Coordinador coordinador;
         setBackground(java.awt.Color.white);
         setMinimumSize(new java.awt.Dimension(700, 600));
         setResizable(false);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
+            }
+        });
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.LINE_AXIS));
 
         panelcontenido.setBackground(new java.awt.Color(255, 255, 255));
@@ -167,6 +172,12 @@ private Coordinador coordinador;
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void init() {
+        servidorLocal = new ServidorLocal("Estados", this);
+        servidorLocal.start();
+    }
+
     public void cargarColonias() {
         coordinador = new Coordinador();
         listaColonias = coordinador.obtenerColonias();
@@ -189,7 +200,7 @@ private Coordinador coordinador;
         tableModel.fireTableDataChanged();
     }
     private void botoneditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneditarActionPerformed
- int row = jTable1.getSelectedRow();
+        int row = jTable1.getSelectedRow();
         Colonia colonia = listaColonias.get(row);
         System.out.println("row " + row + " estado " + listaColonias.get(row));
         if (colonia != null) {
@@ -199,27 +210,35 @@ private Coordinador coordinador;
     }//GEN-LAST:event_botoneditarActionPerformed
 
     private void botoneliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneliminarActionPerformed
-       int row = jTable1.getSelectedRow();
+        int row = jTable1.getSelectedRow();
         Colonia colonia = listaColonias.get(row);
         if (colonia != null) {
             coordinador = new Coordinador();
             coordinador.borrarColonia(colonia);
+            BroadcastUtils.mensajeAServidorRemoto("Operacion");
             //Obtener estados una vez mas
             listaColonias = coordinador.obtenerColonias();
             //Actualizar modelo jTable
-            actualizarJTableModel(); }       
+            actualizarJTableModel();
+        }
     }//GEN-LAST:event_botoneliminarActionPerformed
 
     private void btnsalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsalirActionPerformed
-this.setVisible(false);        // TODO add your handling code here:
+        this.setVisible(false);        // TODO add your handling code here:
     }//GEN-LAST:event_btnsalirActionPerformed
 
     private void btnagregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnagregarActionPerformed
-Agregarcolonia agregarcolonia = new Agregarcolonia(this);
-agregarcolonia.setVisible(true);// TODO add your handling code here:
+        Agregarcolonia agregarcolonia = new Agregarcolonia(this);
+        agregarcolonia.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnagregarActionPerformed
 
-  
+    private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+        System.out.println("Ventana cerrando");
+        BroadcastUtils.mensajeAServidorRemoto("Normal");
+        servidorLocal.interrupt();
+    }//GEN-LAST:event_formWindowClosing
+
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botoneditar;
     private javax.swing.JButton botoneliminar;
@@ -231,5 +250,5 @@ agregarcolonia.setVisible(true);// TODO add your handling code here:
     private javax.swing.JPanel panelizquierdo;
     private javax.swing.JPanel paneltabla;
     // End of variables declaration//GEN-END:variables
- 
+
 }

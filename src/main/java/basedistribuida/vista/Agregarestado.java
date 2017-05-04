@@ -5,8 +5,11 @@
  */
 package basedistribuida.vista;
 
+import basedistribuida.broadcast.BroadcastUtils;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Estado;
+import java.io.IOException;
+import java.net.UnknownHostException;
 import javax.swing.JOptionPane;
 
 /**
@@ -17,6 +20,7 @@ public class Agregarestado extends javax.swing.JFrame {
 
     private Coordinador coordinador;
     private Estados estadosFrame;
+
     /**
      * Creates new form Agregarpersona
      */
@@ -129,7 +133,7 @@ public class Agregarestado extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnguardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
+    private void btnguardarActionPerformed(java.awt.event.ActionEvent evt) {
         //Validar que existan los dos datos
         if (tb_estado.getText().length() > 0
                 && tb_zona.getText().length() > 0) {
@@ -143,9 +147,10 @@ public class Agregarestado extends javax.swing.JFrame {
                 coordinador.insertarEstado(estado);
                 estadosFrame.cargarEstados();
                 dispose();
+                BroadcastUtils.mensajeAServidorRemoto("Operacion");
                 //Mensaje de actualizacion exitosa
                 JOptionPane.showMessageDialog(this, "Estado insertado correctamente", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
-                
+
             } else {
                 //Mensaje de que la zona no es conocida
                 JOptionPane.showMessageDialog(this, "Zona desconocida", "Error", JOptionPane.ERROR_MESSAGE);
@@ -156,10 +161,10 @@ public class Agregarestado extends javax.swing.JFrame {
         }
     }
 
-    private void btncancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
+    private void btncancelarActionPerformed(java.awt.event.ActionEvent evt) {
         dispose();
     }
-    
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_cancelar;
     private javax.swing.JButton btn_guardar;
