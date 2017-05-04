@@ -31,7 +31,7 @@ private Coordinador coordinador;
         try {
             file = new File(System.getProperty("user.dir") + "/archivos/312408.png");
             img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
-            botonVer.setIcon(new ImageIcon(img));
+            //botonVer.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/agregar.png");
             img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
             btnagregar.setIcon(new ImageIcon(img));            
@@ -43,7 +43,7 @@ private Coordinador coordinador;
             botoneliminar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/buscar.png");
             img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
-            botonbuscar.setIcon(new ImageIcon(img));
+            //botonbuscar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/actualizar.png");
             img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
             btnactualizar.setIcon(new ImageIcon(img));
@@ -62,12 +62,16 @@ private Coordinador coordinador;
         panelcontenido = new javax.swing.JPanel();
         panelizquierdo = new javax.swing.JPanel();
         btnactualizar = new javax.swing.JButton();
-        botonVer = new javax.swing.JButton();
-        botonbuscar = new javax.swing.JButton();
         btnagregar = new javax.swing.JButton();
         botoneditar = new javax.swing.JButton();
         botoneliminar = new javax.swing.JButton();
         btnsalir = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jLabel2 = new javax.swing.JLabel();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jLabel3 = new javax.swing.JLabel();
+        jComboBox3 = new javax.swing.JComboBox<>();
         paneltabla = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -102,30 +106,6 @@ private Coordinador coordinador;
             }
         });
         panelizquierdo.add(btnactualizar);
-
-        botonVer.setText("Ver");
-        botonVer.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        botonVer.setMaximumSize(new java.awt.Dimension(150, 35));
-        botonVer.setMinimumSize(new java.awt.Dimension(150, 35));
-        botonVer.setPreferredSize(new java.awt.Dimension(150, 35));
-        botonVer.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonVerActionPerformed(evt);
-            }
-        });
-        panelizquierdo.add(botonVer);
-
-        botonbuscar.setText("Buscar");
-        botonbuscar.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        botonbuscar.setMaximumSize(new java.awt.Dimension(150, 35));
-        botonbuscar.setMinimumSize(new java.awt.Dimension(150, 35));
-        botonbuscar.setPreferredSize(new java.awt.Dimension(150, 35));
-        botonbuscar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonbuscarActionPerformed(evt);
-            }
-        });
-        panelizquierdo.add(botonbuscar);
 
         btnagregar.setText("Agregar");
         btnagregar.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -174,6 +154,48 @@ private Coordinador coordinador;
             }
         });
         panelizquierdo.add(btnsalir);
+
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("Filtar por Estado");
+        jLabel1.setMaximumSize(new java.awt.Dimension(150, 35));
+        jLabel1.setMinimumSize(new java.awt.Dimension(150, 35));
+        jLabel1.setPreferredSize(new java.awt.Dimension(150, 35));
+        panelizquierdo.add(jLabel1);
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setAlignmentX(0.0F);
+        jComboBox1.setMaximumSize(new java.awt.Dimension(150, 35));
+        jComboBox1.setMinimumSize(new java.awt.Dimension(150, 35));
+        jComboBox1.setPreferredSize(new java.awt.Dimension(150, 35));
+        panelizquierdo.add(jComboBox1);
+
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("Filtar por Municipio");
+        jLabel2.setMaximumSize(new java.awt.Dimension(150, 35));
+        jLabel2.setMinimumSize(new java.awt.Dimension(150, 35));
+        jLabel2.setPreferredSize(new java.awt.Dimension(150, 35));
+        panelizquierdo.add(jLabel2);
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setAlignmentX(0.0F);
+        jComboBox2.setMaximumSize(new java.awt.Dimension(150, 35));
+        jComboBox2.setMinimumSize(new java.awt.Dimension(150, 35));
+        jComboBox2.setPreferredSize(new java.awt.Dimension(150, 35));
+        panelizquierdo.add(jComboBox2);
+
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setText("Filtar por Colonia");
+        jLabel3.setMaximumSize(new java.awt.Dimension(150, 35));
+        jLabel3.setMinimumSize(new java.awt.Dimension(150, 35));
+        jLabel3.setPreferredSize(new java.awt.Dimension(150, 35));
+        panelizquierdo.add(jLabel3);
+
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox3.setAlignmentX(0.0F);
+        jComboBox3.setMaximumSize(new java.awt.Dimension(150, 35));
+        jComboBox3.setMinimumSize(new java.awt.Dimension(150, 35));
+        jComboBox3.setPreferredSize(new java.awt.Dimension(150, 35));
+        panelizquierdo.add(jComboBox3);
 
         panelcontenido.add(panelizquierdo);
 
@@ -237,18 +259,13 @@ public void cargarPersonas() {
         jTable1.setModel(tableModel);
         tableModel.fireTableDataChanged();
     }
-    private void botonVerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonVerActionPerformed
-Verpersona verpersona = new Verpersona();
-verpersona.setVisible(true);
-    }//GEN-LAST:event_botonVerActionPerformed
-
     private void botoneditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneditarActionPerformed
  int row = jTable1.getSelectedRow();
         InformacionPersona persona = listaPersonas.get(row);
         System.out.println("row " + row + " estado " + listaPersonas.get(row));
         if (persona != null) {
-           // Editarpersona editarpersona = new Editarpersona(this, persona);
-            //editarpersona.setVisible(true);
+            Editarpersona editarpersona = new Editarpersona(persona, this);
+            editarpersona.setVisible(true);
         }
     }//GEN-LAST:event_botoneditarActionPerformed
 
@@ -265,10 +282,6 @@ verpersona.setVisible(true);
             actualizarJTableModel(); }           
     }//GEN-LAST:event_botoneliminarActionPerformed
 
-    private void botonbuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_botonbuscarActionPerformed
-
     private void btnactualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactualizarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnactualizarActionPerformed
@@ -284,13 +297,17 @@ agregarpersona.setVisible(true);// TODO add your handling code here:
 
  
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton botonVer;
-    private javax.swing.JButton botonbuscar;
     private javax.swing.JButton botoneditar;
     private javax.swing.JButton botoneliminar;
     private javax.swing.JButton btnactualizar;
     private javax.swing.JButton btnagregar;
     private javax.swing.JButton btnsalir;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable jTable1;
     private javax.swing.JPanel panelcontenido;

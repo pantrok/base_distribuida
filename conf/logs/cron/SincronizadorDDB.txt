@@ -25,3 +25,4391 @@ Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincroniza
 La base esta actualizada
 Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
 La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+Hibernate: select persona0_.id as id1_5_, persona0_.apellidoMaterno as apellido2_5_, persona0_.apellidoPaterno as apellido3_5_, persona0_.checksum as checksum4_5_, persona0_.fechaNacimiento as fechaNac5_5_, persona0_.genero as genero6_5_, persona0_.nombre as nombre7_5_ from personas persona0_
+Hibernate: select persona0_.id as id1_5_, persona0_.apellidoMaterno as apellido2_5_, persona0_.apellidoPaterno as apellido3_5_, persona0_.checksum as checksum4_5_, persona0_.fechaNacimiento as fechaNac5_5_, persona0_.genero as genero6_5_, persona0_.nombre as nombre7_5_ from personas persona0_
+Hibernate: SELECT * FROM direcciones WHERE idPersona = 2
+Hibernate: select persona0_.id as id1_5_0_, persona0_.apellidoMaterno as apellido2_5_0_, persona0_.apellidoPaterno as apellido3_5_0_, persona0_.checksum as checksum4_5_0_, persona0_.fechaNacimiento as fechaNac5_5_0_, persona0_.genero as genero6_5_0_, persona0_.nombre as nombre7_5_0_ from personas persona0_ where persona0_.id=?
+Hibernate: update estado_nodos_replicas set sincronizada=? where replica=?
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Replica de MAQUINA_4 abajo
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+Hibernate: select persona0_.id as id1_5_, persona0_.apellidoMaterno as apellido2_5_, persona0_.apellidoPaterno as apellido3_5_, persona0_.checksum as checksum4_5_, persona0_.fechaNacimiento as fechaNac5_5_, persona0_.genero as genero6_5_, persona0_.nombre as nombre7_5_ from personas persona0_
+Hibernate: select persona0_.id as id1_5_, persona0_.apellidoMaterno as apellido2_5_, persona0_.apellidoPaterno as apellido3_5_, persona0_.checksum as checksum4_5_, persona0_.fechaNacimiento as fechaNac5_5_, persona0_.genero as genero6_5_, persona0_.nombre as nombre7_5_ from personas persona0_
+Hibernate: SELECT * FROM direcciones WHERE idPersona = 2
+Hibernate: select persona0_.id as id1_5_0_, persona0_.apellidoMaterno as apellido2_5_0_, persona0_.apellidoPaterno as apellido3_5_0_, persona0_.checksum as checksum4_5_0_, persona0_.fechaNacimiento as fechaNac5_5_0_, persona0_.genero as genero6_5_0_, persona0_.nombre as nombre7_5_0_ from personas persona0_ where persona0_.id=?
+Hibernate: select persona_.id, persona_.apellidoMaterno as apellido2_5_, persona_.apellidoPaterno as apellido3_5_, persona_.checksum as checksum4_5_, persona_.fechaNacimiento as fechaNac5_5_, persona_.genero as genero6_5_, persona_.nombre as nombre7_5_ from personas persona_ where persona_.id=?
+Hibernate: delete from personas where id=?
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+Hibernate: select persona0_.id as id1_5_, persona0_.apellidoMaterno as apellido2_5_, persona0_.apellidoPaterno as apellido3_5_, persona0_.checksum as checksum4_5_, persona0_.fechaNacimiento as fechaNac5_5_, persona0_.genero as genero6_5_, persona0_.nombre as nombre7_5_ from personas persona0_
+Hibernate: select persona0_.id as id1_5_, persona0_.apellidoMaterno as apellido2_5_, persona0_.apellidoPaterno as apellido3_5_, persona0_.checksum as checksum4_5_, persona0_.fechaNacimiento as fechaNac5_5_, persona0_.genero as genero6_5_, persona0_.nombre as nombre7_5_ from personas persona0_
+Hibernate: update estado_nodos_replicas set sincronizada=? where replica=?
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajoReplica de MAQUINA_4 abajo
+
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajoReplica de MAQUINA_4 abajo
+
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajoReplica de MAQUINA_4 abajo
+
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Replica de MAQUINA_4 abajo
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Replica de MAQUINA_4 abajo
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Hibernate: select estadonodo0_.replica as replica1_2_0_, estadonodo0_.sincronizada as sincroni2_2_0_ from estado_nodos_replicas estadonodo0_ where estadonodo0_.replica=?
+La base esta actualizada
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo
+Replica de MAQUINA_4 abajo

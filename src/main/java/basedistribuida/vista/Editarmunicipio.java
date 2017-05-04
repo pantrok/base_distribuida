@@ -38,6 +38,7 @@ public class Editarmunicipio extends javax.swing.JFrame {
         //Cargar estados
         coordinador = new Coordinador();
         listaEstados = coordinador.obtenerEstados();
+        
         if (!listaEstados.isEmpty()) {
             ArrayList<String> nombresEstados = new ArrayList<>();
             int indexASeleccionar = -1;
@@ -190,7 +191,7 @@ public class Editarmunicipio extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnguardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
+    private void btnguardarActionPerformed(java.awt.event.ActionEvent evt) {                                            
         //Validar que existan los dos datos
         if (tb_nombre.getText().length() > 0) {
             coordinador = new Coordinador();
@@ -209,7 +210,7 @@ public class Editarmunicipio extends javax.swing.JFrame {
 
     }
 
-    private void btncancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
+    private void btncancelarActionPerformed(java.awt.event.ActionEvent evt) {                                            
         dispose();
     }
 
