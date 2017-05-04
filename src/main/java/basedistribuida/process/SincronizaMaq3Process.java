@@ -50,13 +50,39 @@ public class SincronizaMaq3Process extends Thread {
                             }
                             personas = new PersonaCtrl(nodo.getConexion()).obtenerTodos();
                             for (Persona p : personas) {
-                                Direccion d = new DireccionCtrl(nodo.getConexionReplica()).findDireccionByPersonaId(p.getId());
+                                Direccion d = new DireccionCtrl(nodo.getConexion()).findDireccionByPersonaId(p.getId());
                                 Persona pNodoReplica = new PersonaCtrl(nodo.getConexionReplica()).findPersonaById(p.getId());
                                 if (pNodoReplica == null) {
                                     new PersonaCtrl(nodo.getConexion()).deletePersona(p);
                                     new DireccionCtrl(nodo.getConexion()).deleteDireccion(d);
                                 }
                             }
+                            
+                            //Despues sincronizamos la replica que esta en la maquina, lo del nodo primario se va a esta maquina
+                            Nodo nodoReplica = new Nodo(Nodo.Maquina.MAQUINA_2);
+                            //Tenemos que checar personas y direcciones
+                            personas = new PersonaCtrl(nodoReplica.getConexion()).obtenerTodos();
+                            for (Persona p : personas) {
+                                Direccion d = new DireccionCtrl(nodoReplica.getConexion()).findDireccionByPersonaId(p.getId());
+                                Persona pNodoReplica = new PersonaCtrl(nodoReplica.getConexionReplica()).findPersonaById(p.getId());
+                                if (pNodoReplica == null) {
+                                    new PersonaCtrl(nodoReplica.getConexionReplica()).savePersona(p);
+                                    new DireccionCtrl(nodoReplica.getConexionReplica()).saveDireccion(d);
+                                } else if (!p.getChecksum().equals(pNodoReplica.getChecksum())) {
+                                    new PersonaCtrl(nodoReplica.getConexionReplica()).updatePersona(p);
+                                    new DireccionCtrl(nodoReplica.getConexionReplica()).updateDireccion(d);
+                                }
+                            }
+                            personas = new PersonaCtrl(nodoReplica.getConexionReplica()).obtenerTodos();
+                            for (Persona p : personas) {
+                                Direccion d = new DireccionCtrl(nodoReplica.getConexionReplica()).findDireccionByPersonaId(p.getId());
+                                Persona pNodoPrimario = new PersonaCtrl(nodoReplica.getConexion()).findPersonaById(p.getId());
+                                if (pNodoPrimario == null) {
+                                    new PersonaCtrl(nodoReplica.getConexionReplica()).deletePersona(p);
+                                    new DireccionCtrl(nodoReplica.getConexionReplica()).deleteDireccion(d);
+                                }
+                            }
+                            
                             estadoNodoReplica.setSincronizada(1);
                             new EstadoNodoReplicaCtrl(nodo.getConexionReplica()).updateEstadoNodoReplica(estadoNodoReplica);
 

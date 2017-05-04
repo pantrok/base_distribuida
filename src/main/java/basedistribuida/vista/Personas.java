@@ -1,7 +1,8 @@
-
 package basedistribuida.vista;
 
 import basedistribuida.beans.InformacionPersona;
+import basedistribuida.broadcast.BroadcastUtils;
+import basedistribuida.broadcast.ServidorLocal;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Persona;
 import basedistribuida.model.Colonia;
@@ -9,51 +10,51 @@ import basedistribuida.model.Estado;
 import basedistribuida.model.Municipio;
 import java.awt.Image;
 import java.io.File;
+import java.io.IOException;
+import java.net.UnknownHostException;
 import java.util.List;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
 
-
- 
-
 public class Personas extends javax.swing.JFrame {
- 
- 
-File file = null;
-Image img = null;
-private List<InformacionPersona> listaPersonas;
-private Coordinador coordinador;
+
+    File file = null;
+    Image img = null;
+    private List<InformacionPersona> listaPersonas;
+    private Coordinador coordinador;
+    private ServidorLocal servidorLocal;
 
     public Personas() {
         initComponents();
+        init();
         cargarPersonas();
         try {
             file = new File(System.getProperty("user.dir") + "/archivos/312408.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             //botonVer.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/agregar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
-            btnagregar.setIcon(new ImageIcon(img));            
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
+            btnagregar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/editar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             botoneditar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/eliminar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             botoneliminar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/buscar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             //botonbuscar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/actualizar.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
             btnactualizar.setIcon(new ImageIcon(img));
             file = new File(System.getProperty("user.dir") + "/archivos/salir.png");
-            img = ImageIO.read(file).getScaledInstance(32, 32,  java.awt.Image.SCALE_SMOOTH);  
-            btnsalir.setIcon(new ImageIcon(img));            
+            img = ImageIO.read(file).getScaledInstance(32, 32, java.awt.Image.SCALE_SMOOTH);
+            btnsalir.setIcon(new ImageIcon(img));
         } catch (Exception ex) {
             System.out.println(ex);
         }
-      }
+    }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -81,6 +82,11 @@ private Coordinador coordinador;
         setMaximumSize(new java.awt.Dimension(1000, 600));
         setMinimumSize(new java.awt.Dimension(1000, 600));
         setResizable(false);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
+            }
+        });
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.LINE_AXIS));
 
         panelcontenido.setBackground(new java.awt.Color(255, 255, 255));
@@ -236,7 +242,13 @@ private Coordinador coordinador;
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-public void cargarPersonas() {
+
+    private void init() {
+        servidorLocal = new ServidorLocal("Personas", this);
+        servidorLocal.start();
+    }
+
+    public void cargarPersonas() {
         coordinador = new Coordinador();
         listaPersonas = coordinador.obtenerPersonas();
         //Actualizamos modelo jTable
@@ -248,19 +260,19 @@ public void cargarPersonas() {
         tableModel.setRowCount(0);
         for (int i = 0; i < listaPersonas.size(); i++) {
             String[] data = new String[6];
-            data[0] = listaPersonas.get(i).getPersona().getId()+ "";
+            data[0] = listaPersonas.get(i).getPersona().getId() + "";
             data[1] = listaPersonas.get(i).getPersona().getNombre();
             data[2] = listaPersonas.get(i).getPersona().getApellidoPaterno();
             data[3] = listaPersonas.get(i).getPersona().getApellidoMaterno();
-            data[4] = listaPersonas.get(i).getPersona().getFechaNacimiento()+"";
-            data[5] = listaPersonas.get(i).getPersona().getGenero().name();             
+            data[4] = listaPersonas.get(i).getPersona().getFechaNacimiento() + "";
+            data[5] = listaPersonas.get(i).getPersona().getGenero().name();
             tableModel.addRow(data);
         }
         jTable1.setModel(tableModel);
         tableModel.fireTableDataChanged();
     }
     private void botoneditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneditarActionPerformed
- int row = jTable1.getSelectedRow();
+        int row = jTable1.getSelectedRow();
         InformacionPersona persona = listaPersonas.get(row);
         System.out.println("row " + row + " estado " + listaPersonas.get(row));
         if (persona != null) {
@@ -270,16 +282,18 @@ public void cargarPersonas() {
     }//GEN-LAST:event_botoneditarActionPerformed
 
     private void botoneliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneliminarActionPerformed
-     int row = jTable1.getSelectedRow();
+        int row = jTable1.getSelectedRow();
         InformacionPersona persona = listaPersonas.get(row);
-         if (persona != null) {
+        if (persona != null) {
             coordinador = new Coordinador();
             Estado estado = coordinador.obtenerEstadoById(persona.getDireccion().getIdEstado());
-            coordinador.borrarInformacionPersona(persona.getPersona(),persona.getDireccion(),estado);
+            coordinador.borrarInformacionPersona(persona.getPersona(), persona.getDireccion(), estado);
+            BroadcastUtils.mensajeAServidorRemoto("Operacion");
             //Obtener estados una vez mas
             listaPersonas = coordinador.obtenerPersonas();
             //Actualizar modelo jTable
-            actualizarJTableModel(); }           
+            actualizarJTableModel();
+        }
     }//GEN-LAST:event_botoneliminarActionPerformed
 
     private void btnactualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactualizarActionPerformed
@@ -287,15 +301,21 @@ public void cargarPersonas() {
     }//GEN-LAST:event_btnactualizarActionPerformed
 
     private void btnsalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsalirActionPerformed
-this.setVisible(false);        // TODO add your handling code here:
+        this.setVisible(false);        // TODO add your handling code here:
     }//GEN-LAST:event_btnsalirActionPerformed
 
     private void btnagregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnagregarActionPerformed
-Agregarpersona agregarpersona = new Agregarpersona(this);
-agregarpersona.setVisible(true);// TODO add your handling code here:
+        Agregarpersona agregarpersona = new Agregarpersona(this);
+        agregarpersona.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnagregarActionPerformed
 
- 
+    private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+        System.out.println("Ventana cerrando");
+        BroadcastUtils.mensajeAServidorRemoto("Normal");
+        servidorLocal.interrupt();
+    }//GEN-LAST:event_formWindowClosing
+
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botoneditar;
     private javax.swing.JButton botoneliminar;
@@ -314,5 +334,5 @@ agregarpersona.setVisible(true);// TODO add your handling code here:
     private javax.swing.JPanel panelizquierdo;
     private javax.swing.JPanel paneltabla;
     // End of variables declaration//GEN-END:variables
- 
+
 }

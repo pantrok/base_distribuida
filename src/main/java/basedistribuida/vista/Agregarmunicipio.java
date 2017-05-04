@@ -5,6 +5,7 @@
  */
 package basedistribuida.vista;
 
+import basedistribuida.broadcast.BroadcastUtils;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Estado;
 import basedistribuida.model.Municipio;
@@ -175,7 +176,7 @@ public class Agregarmunicipio extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnguardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
+    private void btnguardarActionPerformed(java.awt.event.ActionEvent evt) {                                            
         //Validar que existan los dos datos
         if (tb_nombre.getText().length() > 0) {
             coordinador = new Coordinador();
@@ -184,6 +185,7 @@ public class Agregarmunicipio extends javax.swing.JFrame {
             Estado estado = listaEstados.get(jComboBox1.getSelectedIndex());
             municipio.setIdEstado(estado.getId()); //Obtener estado seleccionado del combo
             coordinador.insertarMunicipio(municipio);
+            BroadcastUtils.mensajeAServidorRemoto("Operacion");
             municipiosFrame.cargarMunicipios();
             dispose();
             //Mensaje de actualizacion exitosa
@@ -194,7 +196,7 @@ public class Agregarmunicipio extends javax.swing.JFrame {
         }
     }
 
-    private void btncancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
+    private void btncancelarActionPerformed(java.awt.event.ActionEvent evt) {                                            
         dispose();
     }
 

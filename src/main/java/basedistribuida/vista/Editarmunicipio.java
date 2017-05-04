@@ -5,6 +5,7 @@
  */
 package basedistribuida.vista;
 
+import basedistribuida.broadcast.BroadcastUtils;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Estado;
 import basedistribuida.model.Municipio;
@@ -199,6 +200,7 @@ public class Editarmunicipio extends javax.swing.JFrame {
             Estado estado = listaEstados.get(jComboBox1.getSelectedIndex());
             municipio.setIdEstado(estado.getId());
             coordinador.updateMunicipio(municipio);
+            BroadcastUtils.mensajeAServidorRemoto("Operacion");
             //Mensaje de actualizacion exitosa
             municipiosFrame.cargarMunicipios();
             dispose();

@@ -5,6 +5,7 @@
  */
 package basedistribuida.vista;
 
+import basedistribuida.broadcast.BroadcastUtils;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Estado;
 import java.awt.TrayIcon;
@@ -139,7 +140,7 @@ public class Editarestado extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnguardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
+    private void btnguardarActionPerformed(java.awt.event.ActionEvent evt) {                                            
         //Validar que existan los dos datos
         if (tb_estado.getText().length() > 0
                 && tb_zona.getText().length() > 0) {
@@ -150,6 +151,7 @@ public class Editarestado extends javax.swing.JFrame {
                 estado.setNombre(tb_estado.getText());
                 estado.setZona(Estado.Zona.valueOf(tb_zona.getText()));
                 coordinador.updateEstado(estado);
+                BroadcastUtils.mensajeAServidorRemoto("Operacion");
                 //Mensaje de actualizacion exitosa
                 estadosFrame.cargarEstados();
                 dispose();
@@ -164,7 +166,7 @@ public class Editarestado extends javax.swing.JFrame {
         }
     }
 
-    private void btncancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonbuscarActionPerformed
+    private void btncancelarActionPerformed(java.awt.event.ActionEvent evt) {                                            
         dispose();
     }
 

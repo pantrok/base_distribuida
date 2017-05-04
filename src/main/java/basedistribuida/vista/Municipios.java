@@ -1,10 +1,14 @@
 package basedistribuida.vista;
 
+import basedistribuida.broadcast.BroadcastUtils;
+import basedistribuida.broadcast.ServidorLocal;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Estado;
 import basedistribuida.model.Municipio;
 import java.awt.Image;
 import java.io.File;
+import java.io.IOException;
+import java.net.UnknownHostException;
 import java.util.List;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
@@ -16,9 +20,11 @@ public class Municipios extends javax.swing.JFrame {
     private Image img = null;
     private List<Municipio> listaMunicipios;
     private Coordinador coordinador;
+    private ServidorLocal servidorLocal;
 
     public Municipios() {
         initComponents();
+        init();
         cargarMunicipios();
         try {
             file = new File(System.getProperty("user.dir") + "/archivos/agregar.png");
@@ -62,6 +68,11 @@ public class Municipios extends javax.swing.JFrame {
         setBackground(java.awt.Color.white);
         setMinimumSize(new java.awt.Dimension(700, 600));
         setResizable(false);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
+            }
+        });
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.LINE_AXIS));
 
         panelcontenido.setBackground(new java.awt.Color(255, 255, 255));
@@ -164,6 +175,11 @@ public class Municipios extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void init() {
+        servidorLocal = new ServidorLocal("Municipios", this);
+        servidorLocal.start();
+    }
+
     public void cargarMunicipios() {
         coordinador = new Coordinador();
         listaMunicipios = coordinador.obtenerMunicipios();
@@ -185,7 +201,7 @@ public class Municipios extends javax.swing.JFrame {
         jTable1.setModel(tableModel);
         tableModel.fireTableDataChanged();
     }
-    
+
     private void botoneditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botoneditarActionPerformed
         int row = jTable1.getSelectedRow();
         Municipio municipio = listaMunicipios.get(row);
@@ -202,6 +218,7 @@ public class Municipios extends javax.swing.JFrame {
         if (municipio != null) {
             coordinador = new Coordinador();
             coordinador.borrarMunicipio(municipio);
+            BroadcastUtils.mensajeAServidorRemoto("Operacion");
             //Obtener estados una vez mas
             listaMunicipios = coordinador.obtenerMunicipios();
             //Actualizar modelo jTable
@@ -218,7 +235,13 @@ public class Municipios extends javax.swing.JFrame {
         agregarmunicipio.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnagregarActionPerformed
 
-    
+    private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+        System.out.println("Ventana cerrando");
+        BroadcastUtils.mensajeAServidorRemoto("Normal");
+        servidorLocal.interrupt();
+    }//GEN-LAST:event_formWindowClosing
+
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botoneditar;
     private javax.swing.JButton botoneliminar;

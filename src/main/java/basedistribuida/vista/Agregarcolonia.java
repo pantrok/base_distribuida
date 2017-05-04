@@ -5,6 +5,7 @@
  */
 package basedistribuida.vista;
 
+import basedistribuida.broadcast.BroadcastUtils;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Colonia;
 import basedistribuida.model.Municipio;
@@ -179,7 +180,9 @@ public class Agregarcolonia extends javax.swing.JFrame {
             Municipio municipio = listaMunicipios.get(jComboBox1.getSelectedIndex());
             colonia.setIdMunicipio(municipio.getId()); //Obtener estado seleccionado del combo
             coordinador.insertarColonia(colonia);
-            //coloniasFrame.cargarColonias();
+            BroadcastUtils.mensajeAServidorRemoto("Operacion");
+            
+            coloniasFrame.cargarColonias();
             dispose();
             //Mensaje de actualizacion exitosa
             JOptionPane.showMessageDialog(this, "Colonia insertada correctamente", "Mensaje", JOptionPane.INFORMATION_MESSAGE);

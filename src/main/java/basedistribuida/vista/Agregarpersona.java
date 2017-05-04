@@ -5,6 +5,7 @@
  */
 package basedistribuida.vista;
 
+import basedistribuida.broadcast.BroadcastUtils;
 import basedistribuida.coordinator.Coordinador;
 import basedistribuida.model.Direccion;
 import basedistribuida.model.Estado;
@@ -336,6 +337,9 @@ public class Agregarpersona extends javax.swing.JFrame {
             direccion.setIdColonia(Integer.parseInt(tb_colonia.getText()));
             
             coordinador.insertarPersona(persona, direccion, estado);
+            
+            BroadcastUtils.mensajeAServidorRemoto("Operacion");
+            
             personasFrame.cargarPersonas();
             dispose();
             //Mensaje de actualizacion exitosa
